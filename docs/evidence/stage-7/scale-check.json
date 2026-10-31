@@ -1,0 +1,41 @@
+{
+  "browser": {
+    "brands": [
+      {
+        "brand": "Microsoft Edge",
+        "version": "155"
+      },
+      {
+        "brand": "Chromium",
+        "version": "155"
+      },
+      {
+        "brand": "Not(A:Brand",
+        "version": "24"
+      }
+    ],
+    "fullVersionList": [
+      {
+        "brand": "Microsoft Edge",
+        "version": "155.0.4283.45"
+      },
+      {
+        "brand": "Chromium",
+        "version": "155.0.8059.40"
+      },
+      {
+        "brand": "Not(A:Brand",
+        "version": "24.0.0.0"
+      }
+    ],
+    "mobile": false,
+    "platform": "Windows"
+  },
+  "canvas": {
+    "width": 640,
+    "height": 360,
+    "cssWidth": 640,
+    "cssHeight": 360,
+    "phase": "paused"
+  }
+}

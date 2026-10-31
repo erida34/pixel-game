@@ -1,0 +1,6 @@
+🎨 'single massive greenhouse heart creature, tangled dark roots surrounding a cracked pale wax core, broken brass greenhouse ribs, small violet glow, broad imposing readable silhouette, top-down three-quarter game view, facing south, crisp pixel art, dark outline, centered isolated subject on white background, no ground'  |  128px  |  ENDESGA-32 |  transparent  |  quality 25st  |  1 image(s)
+   📝 positive: single massive greenhouse heart creature, tangled dark roots surrounding a cracked pale wax core, broken brass greenhouse ribs, small violet glow, broad imposing readable silhouette, top-down three-quarter game view, facing south, crisp pixel art, dark outline, centered isolated subject on white background, no ground
+   🚫 negative: sprite sheet, text, watermark, realistic, blurry, multiple panels
+   🧩 lora:     pixel-art-xl.safetensors @ 1
+   ✅ seed=1301  ->  /mnt/c/Users/1/Documents/GitHub/pixel-game/assets-source/drafts/greenhouse_heart/greenhouse_heart_128x128_ENDESGA-32_s1301_sprite_00001_.png
+   all done in 23.1s  |  files in /mnt/c/Users/1/Documents/GitHub/pixel-game/assets-source/drafts/greenhouse_heart

@@ -1,0 +1,6 @@
+🎨 'single tall shambling candle wax humanoid, drooping pale wax shoulders, dripping hands, violet eyes, top-down three-quarter game view, facing south, crisp pixel art, dark outline, centered isolated subject on white background, no ground'  |  64px  |  ENDESGA-32 |  transparent  |  quality 25st  |  1 image(s)
+   📝 positive: single tall shambling candle wax humanoid, drooping pale wax shoulders, dripping hands, violet eyes, top-down three-quarter game view, facing south, crisp pixel art, dark outline, centered isolated subject on white background, no ground
+   🚫 negative: sprite sheet, text, watermark, realistic, blurry, multiple panels
+   🧩 lora:     pixel-art-xl.safetensors @ 1
+   ✅ seed=1202  ->  /mnt/c/Users/1/Documents/GitHub/pixel-game/assets-source/drafts/wax_walker/wax_walker_64x64_ENDESGA-32_s1202_sprite_00001_.png
+   all done in 35.5s  |  files in /mnt/c/Users/1/Documents/GitHub/pixel-game/assets-source/drafts/wax_walker

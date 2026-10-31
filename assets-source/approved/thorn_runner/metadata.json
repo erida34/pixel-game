@@ -1,0 +1,83 @@
+{
+  "assetId": "thorn_runner",
+  "sourceKind": "Pixelmon base study followed by full authored pixel redraw",
+  "prompt": "single lean thorn beast on long articulated legs, pointed thorn crest, crouched angular silhouette, top-down three-quarter game view, facing south, crisp pixel art, dark outline, centered isolated subject on white background, no ground",
+  "negativePrompt": "sprite sheet, text, watermark, realistic, blurry, multiple panels",
+  "seed": 1204,
+  "arguments": [
+    "single lean thorn beast on long articulated legs, pointed thorn crest, crouched angular silhouette, top-down three-quarter game view, facing south, crisp pixel art, dark outline, centered isolated subject on white background, no ground",
+    "--size",
+    "64",
+    "--palette",
+    "ENDESGA-32",
+    "--transparent",
+    "--seed",
+    "1204",
+    "--no-open",
+    "--exact-prompt",
+    "--negative",
+    "sprite sheet, text, watermark, realistic, blurry, multiple panels",
+    "--dither-amount",
+    "0",
+    "--show-prompt",
+    "--name",
+    "thorn_runner",
+    "--output-to",
+    "assets-source/drafts/thorn_runner"
+  ],
+  "toolCommit": "355bd0b",
+  "toolVersion": "pixelmon 1.9.0",
+  "modelIdentifiers": [
+    "sd_xl_base_1.0.safetensors",
+    "pixel-art-xl.safetensors"
+  ],
+  "modelHashes": {
+    "sd_xl_base_1.0.safetensors": "31e35c80fc4829d14f90153f4c74cd59c90b779f6afe05a74cd6120b893f7e5b",
+    "pixel-art-xl.safetensors": "4234637cb80c998f41e348e6a6cb6bc20d8d038b2b0f256b6129b3b5e353eef7"
+  },
+  "generatedAt": "2026-10-14T03:30:59+00:00",
+  "sourceFiles": [
+    "assets-source/approved/thorn_runner/pixelmon-base.png",
+    "assets-source/approved/thorn_runner/generation.txt"
+  ],
+  "edits": [
+    {
+      "author": "Codex",
+      "tool": "tools/build-content.py / Pillow 12.3.0",
+      "operations": "Distinct creature anatomy, separate cardinal facing poses, articulated legs/arms/wings, crouch and attack, collapse and scattered death remnants; no whole-image rotation or scaling. Icons and weapon FX authored from brass/wax/moth studies."
+    }
+  ],
+  "licenseNotes": "Pixelmon MIT; SDXL CreativeML Open RAIL++-M; Pixel Art XL CreativeML Open RAIL-M; local weight identity against upstream unverified.",
+  "reviewStatus": "approved",
+  "evidence": [
+    "docs/evidence/stage-4/enemy-contact-sheet.png",
+    "docs/evidence/stage-4/enemy-contact-sheet-2x.png",
+    "docs/evidence/stage-4/thorn_runner-prepare.png",
+    "docs/evidence/stage-4/bell_spitter-prepare.png",
+    "docs/evidence/stage-4/lantern_thief-prepare.png",
+    "docs/evidence/stage-4/build-close-early.png",
+    "docs/evidence/stage-4/build-ranged-early.png",
+    "docs/evidence/stage-4/build-mobile-early.png",
+    "docs/evidence/stage-4/content-1x.png",
+    "docs/evidence/stage-4/enemies-check.json",
+    "docs/evidence/stage-4/builds-check.json",
+    "docs/evidence/stage-4/video-check.json",
+    "docs/evidence/stage-4/final-effects-2x.webm",
+    "docs/evidence/stage-4/attacks-2x.webm",
+    "docs/evidence/stage-4/builds-2x.webm"
+  ],
+  "productionParameters": {
+    "size": 64,
+    "palette": "ENDESGA-32",
+    "steps": 25,
+    "cfg": 7,
+    "loraStrength": 1,
+    "ditherAmount": 0,
+    "generationResolution": 1024,
+    "sampler": "euler",
+    "scheduler": "normal",
+    "fast": false
+  },
+  "reviewRef": "docs/evidence/stage-4/art-review.json",
+  "symmetry": null
+}

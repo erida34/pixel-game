@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#10141f" />
+    <link rel="icon" href="data:," />
+    <title>Последний фонарщик · Первый огонь</title>
+  </head>
+  <body>
+    <main>
+      <header><span class="eyebrow">ПОСЛЕДНИЙ ФОНАРЩИК / ПЕРВЫЙ ОГОНЬ</span><h1>Сохрани свет</h1><p>Город зарос корнями. Ночь не кончается. Твой фонарь ещё горит.</p></header>
+      <nav aria-label="Режим игры"><button data-mode="play" aria-pressed="true">Играть</button><button data-mode="workshop" aria-pressed="false">Мастерская графики</button><button id="open-settings">Настройки</button></nav>
+      <nav id="workshop-nav" aria-label="Режим просмотра" hidden><button data-view="field" aria-pressed="true">01 · Двор фонарщика</button><button data-view="directions" aria-pressed="false">02 · Направления</button><button data-view="tiles" aria-pressed="false">03 · Переходы земли</button><button data-view="junctions" aria-pressed="false">04 · Сложные стыки</button></nav>
+      <div id="hud" hidden><div class="hud-row"><span>Здоровье <b id="health"></b></span><span id="run-time"></span><span id="level"></span></div><div class="hud-bars"><progress id="health-bar" max="1" value="1" aria-label="Здоровье"></progress><progress id="xp-bar" max="1" value="0" aria-label="Опыт"></progress></div><div id="inventory"></div></div>
+      <div id="boss-hud" hidden><span id="boss-name"></span><progress id="boss-bar" max="1" value="1" aria-label="Здоровье Сердца оранжереи"></progress></div>
+      <section id="game" aria-label="Игровая сцена" tabindex="0"><div id="run-panel" hidden></div><div id="settings-panel" hidden></div></section>
+      <div class="controls" id="run-controls"><span><kbd>WASD</kbd> / <kbd>↑←↓→</kbd> движение</span><span><kbd>1 · 2 · 3</kbd> выбрать улучшение</span><span><kbd>Esc</kbd> пауза</span><span>Автоатака · собирай искры опыта</span></div>
+      <div class="controls" id="workshop-controls" hidden><span><kbd>WASD</kbd> / <kbd>↑←↓→</kbd> движение</span><span><kbd>H</kbd> урон</span><span><kbd>K</kbd> смерть</span><span><kbd>R</kbd> восстановить</span><span><kbd>Esc</kbd> пауза</span></div>
+      <footer><span id="status" role="status">Загрузка мастерской…</span><span id="asset-status">Графика на проверке</span></footer>
+      <p class="note">Продержись 10 минут и победи Сердце оранжереи. Босс приходит на 09:00; если он жив на 10:00, бой продолжается. Четыре оружия, шесть предметов и шесть типов врагов.</p>
+    </main>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

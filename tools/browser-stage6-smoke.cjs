@@ -1,0 +1,60 @@
+async (page) => {
+  const errors=[], warnings=[], checks=[], restarts=[];
+  page.on('pageerror',e=>errors.push(e.message)); page.on('console',m=>{if(m.type()==='error')errors.push(m.text());if(m.type()==='warning')warnings.push(m.text());});
+  page.on('response',r=>{if(r.status()>=400)errors.push(`${r.status()} ${r.url()}`);});
+  const assert=(ok,msg)=>{if(!ok)throw Error(msg);};
+  const read=()=>page.locator('canvas').evaluate(el=>({...el.dataset}));
+  const wait=()=>page.waitForTimeout(350);
+  const base='http://127.0.0.1:4174/?debug=1&seed=20261014';
+  await page.setViewportSize({width:1360,height:1120}); await page.goto(base);
+  await page.waitForFunction(()=>document.querySelector('canvas')?.dataset.phase==='menu');await wait();
+  await page.evaluate(()=>localStorage.setItem('last-lantern-keeper.settings','{broken'));
+  await page.reload(); await page.waitForFunction(()=>document.querySelector('canvas')?.dataset.audio);await wait();
+  assert(JSON.parse((await read()).audio).state==='locked','audio started before user gesture');checks.push('audio locked before trusted input');
+  await page.getByRole('button',{name:'Настройки',exact:true}).click();
+  assert(await page.locator('#volume').inputValue()==='45','corrupt settings fallback');
+  await page.locator('#volume').focus(); await page.keyboard.press('Home'); await page.locator('#shake').uncheck();
+  await page.keyboard.press('Escape'); await page.reload(); await page.getByRole('button',{name:'Настройки',exact:true}).click();
+  assert(await page.locator('#volume').inputValue()==='0'&&!(await page.locator('#shake').isChecked()),'settings not persisted');
+  await page.locator('#volume').focus(); await page.keyboard.press('ArrowRight');
+  assert(await page.locator('#volume').inputValue()==='5','native range arrows blocked');
+  await page.keyboard.press('Home');await page.keyboard.press('Escape');
+  checks.push('malformed storage recovery; mute/shake survive reload; native slider keyboard');
+  await page.locator('#start-run').focus();await page.keyboard.press('Enter');await wait();
+  assert((await read()).phase==='running','keyboard start');assert(JSON.parse((await read()).audio).volume===0,'mute gain');
+  await page.waitForTimeout(1000);assert(JSON.parse((await read()).audio).rms===0,'mute still outputs samples');
+  await page.keyboard.press('Escape');await wait();const paused=await read();await wait();assert((await read()).time===paused.time,'pause advances');
+  await page.keyboard.press('ArrowRight');assert(await page.locator('#pause-settings').evaluate(el=>document.activeElement===el),'pause arrow focus');
+  await page.keyboard.press('Enter');await page.locator('#volume').focus();await page.keyboard.press('End');
+  await page.keyboard.press('Escape');assert((await read()).phase==='paused','settings auto resumed');
+  await page.locator('#resume-run').focus();await page.keyboard.press('Enter');await page.waitForTimeout(800);
+  let audible=JSON.parse((await read()).audio);assert(audible.state==='running'&&audible.ambient===3&&audible.rms>0,'no WebAudio output after gesture');
+  checks.push('keyboard pause/settings/resume; frozen simulation; audible signal and mute zero');
+  const cdp=await page.context().newCDPSession(page);
+  await page.evaluate(()=>{window.stage6Focus=[];for(const type of ['blur','focus'])window.addEventListener(type,()=>window.stage6Focus.push({type,focus:document.hasFocus(),hidden:document.hidden}));});
+  const focusPage=await page.context().newPage();await focusPage.goto('about:blank');await focusPage.bringToFront();
+  // CLI enables focus emulation. Disable it to exercise a real tab transition.
+  await cdp.send('Emulation.setFocusEmulationEnabled',{enabled:false});await page.waitForTimeout(500);
+  await page.bringToFront();await wait();assert((await read()).phase==='paused','focus loss did not pause');assert(JSON.parse((await read()).audio).ambient===0,'ambient continued during pause');
+  const focusEvents=await page.evaluate(()=>window.stage6Focus);await focusPage.close();
+  await cdp.send('Emulation.setFocusEmulationEnabled',{enabled:true});await cdp.detach();await page.locator('#resume-run').click();
+  await page.waitForFunction(()=>document.querySelector('canvas')?.dataset.phase==='upgrade',null,{timeout:45000});await wait();
+  const upgrade=await read();await page.keyboard.press('Escape');assert((await read()).phase==='upgrade','escaped mandatory upgrade');
+  await page.getByRole('button',{name:'Настройки',exact:true}).click();await page.keyboard.press('Escape');assert((await read()).phase==='upgrade','settings skipped upgrade');
+  const first=JSON.parse(upgrade.offers)[0];await page.keyboard.press('Tab');await page.keyboard.press('Enter');await wait();assert(Number(JSON.parse((await read()).inventory)[first])===1||JSON.parse((await read()).inventory)[first]===2,'keyboard upgrade');
+  checks.push('actual tab focus pause; explicit resume; upgrade preserved across settings/Escape; Enter chooses once');
+  await page.getByRole('button',{name:'Мастерская графики',exact:true}).click();await page.getByRole('button',{name:'04 · Сложные стыки'}).click();
+  await page.getByRole('button',{name:'Играть',exact:true}).click();await page.getByRole('button',{name:'Мастерская боя',exact:true}).click();await page.locator('[data-review=ranged]').click();await page.waitForTimeout(1800);
+  assert(Number((await read()).kills)>0,'content workshop combat');checks.push('both workshops load; real ranged combat');
+  for(let n=0;n<4;n++){
+    await page.getByRole('button',{name:'Играть',exact:true}).click();await page.locator('#start-run').click();await wait();const r=await read();
+    assert(r.level==='1'&&r.kills==='0'&&r.hp==='80'&&r.bossSpawned==='false','restart state leakage');
+    assert(Object.values(JSON.parse(r.inventory)).reduce((a,b)=>a+b,0)===1,'inventory leakage');
+    restarts.push({objects:Number(r.objects),listeners:Number(r.keyboardListeners),audio:JSON.parse(r.audio),inventory:JSON.parse(r.inventory)});
+    await page.keyboard.press('Escape');await wait();
+  }
+  assert(new Set(restarts.map(r=>r.objects)).size===1&&new Set(restarts.map(r=>r.listeners)).size===1,'restart objects/listeners grew');
+  await page.getByRole('button',{name:'Настройки',exact:true}).first().click();await page.waitForTimeout(250);await page.screenshot({path:'docs/evidence/stage-6/settings-'+(page.context().browser().version().includes('4283')?'edge':'chrome')+'.png',fullPage:true});
+  checks.push('4 restarts with stable objects and keyboard listeners');assert(!errors.length&&!warnings.length,JSON.stringify({errors,warnings}));
+  return {browser:page.context().browser().version(),viewport:page.viewportSize(),checks,restarts,errors,warnings,audible,focusEvents,upgrade:{time:upgrade.time,offers:JSON.parse(upgrade.offers)}};
+}

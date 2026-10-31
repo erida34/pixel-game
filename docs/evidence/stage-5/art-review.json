@@ -1,0 +1,28 @@
+{
+  "status": "approved",
+  "reviewer": "Codex visual review; user acceptance not claimed",
+  "reviewedAt": "2026-10-14T05:21:57.880Z",
+  "hashes": {
+    "recipeSha256": "005d1fb55c35d2afa86cd750cc64b1bea17c173a31d58f9ea904d1a0a197c17c",
+    "textureSha256": "f67f480a87ef103fb3de45581ebab0610095923f58dd28853676f68fcbd649f7",
+    "atlasSha256": "06defac9a0779c4f66f94be2a1fb12597cbdae4d791161b1413aadb8377ad38a"
+  },
+  "evidence": [
+    "docs/evidence/stage-5/boss-contact-sheet-1x.png",
+    "docs/evidence/stage-5/boss-contact-sheet-2x.png",
+    "docs/evidence/stage-5/boss-thorns-prepare-2x.png",
+    "docs/evidence/stage-5/boss-summon-prepare-2x.png",
+    "docs/evidence/stage-5/boss-thorns-release-2x.png",
+    "docs/evidence/stage-5/boss-paused-2x.png",
+    "docs/evidence/stage-5/boss-attacks-2x.webm",
+    "docs/evidence/stage-5/boss-check.json",
+    "docs/evidence/stage-5/boss-1x.png",
+    "docs/evidence/stage-5/video-check.json",
+    "docs/evidence/stage-5/video-finale-20.3.png",
+    "docs/evidence/stage-5/video-finale-20.9.png",
+    "docs/evidence/stage-5/full-run.json",
+    "docs/evidence/stage-5/full-run-result.png",
+    "docs/evidence/stage-5/boss-finale-2x.webm"
+  ],
+  "notes": "Viewed wax core, broken brass cage and articulated roots at 1x/2x. Pixelmon produced a greenhouse backdrop and was used only as a material study; runtime fully redrawn. Distinct thorn and summon warnings/releases observed in Phaser, pause freezes all boss state, eight-frame collapse recorded in a real full run. Fixed facing rooted organism; no whole-image rotation or scaling."
+}

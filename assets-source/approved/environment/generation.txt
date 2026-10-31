@@ -1,0 +1,6 @@
+🎨 'single ruined brass street lantern entwined with dark teal roots, small amber flame, abandoned nocturnal city, top-down three-quarter game view, crisp pixel art, restrained detail, dark outline, centered isolated object on white background, no ground'  |  64px  |  ENDESGA-32 |  transparent  |  quality 25st  |  1 image(s)
+   📝 positive: single ruined brass street lantern entwined with dark teal roots, small amber flame, abandoned nocturnal city, top-down three-quarter game view, crisp pixel art, restrained detail, dark outline, centered isolated object on white background, no ground
+   🚫 negative: sprite sheet, multiple objects, text, watermark, realistic, antialiased, blurry
+   🧩 lora:     pixel-art-xl.safetensors @ 1
+   ✅ seed=2401  ->  /mnt/c/Users/1/Documents/GitHub/pixel-game/assets-source/drafts/environment/street-lantern_64x64_ENDESGA-32_s2401_sprite_00001_.png
+   all done in 17.3s  |  files in /mnt/c/Users/1/Documents/GitHub/pixel-game/assets-source/drafts/environment

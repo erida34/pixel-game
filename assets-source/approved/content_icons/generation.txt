@@ -1,0 +1,6 @@
+🎨 'single single brass pocket watch with amber glass and wax details, readable inventory item, no lettering, top-down three-quarter game view, facing south, crisp pixel art, dark outline, centered isolated subject on white background, no ground'  |  32px  |  ENDESGA-32 |  transparent  |  quality 25st  |  1 image(s)
+   📝 positive: single single brass pocket watch with amber glass and wax details, readable inventory item, no lettering, top-down three-quarter game view, facing south, crisp pixel art, dark outline, centered isolated subject on white background, no ground
+   🚫 negative: sprite sheet, text, watermark, realistic, blurry, multiple panels
+   🧩 lora:     pixel-art-xl.safetensors @ 1
+   ✅ seed=3101  ->  /mnt/c/Users/1/Documents/GitHub/pixel-game/assets-source/drafts/content_icons/content_icons_32x32_ENDESGA-32_s3101_sprite_00001_.png
+   all done in 17.2s  |  files in /mnt/c/Users/1/Documents/GitHub/pixel-game/assets-source/drafts/content_icons

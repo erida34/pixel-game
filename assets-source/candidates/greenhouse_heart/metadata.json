@@ -1,0 +1,59 @@
+{
+  "assetId": "greenhouse_heart",
+  "sourceKind": "Pixelmon SDXL base study",
+  "prompt": "single massive greenhouse heart creature, tangled dark roots surrounding a cracked pale wax core, broken brass greenhouse ribs, small violet glow, broad imposing readable silhouette, top-down three-quarter game view, facing south, crisp pixel art, dark outline, centered isolated subject on white background, no ground",
+  "negativePrompt": "sprite sheet, text, watermark, realistic, blurry, multiple panels",
+  "seed": 1301,
+  "arguments": [
+    "single massive greenhouse heart creature, tangled dark roots surrounding a cracked pale wax core, broken brass greenhouse ribs, small violet glow, broad imposing readable silhouette, top-down three-quarter game view, facing south, crisp pixel art, dark outline, centered isolated subject on white background, no ground",
+    "--size",
+    "128",
+    "--palette",
+    "ENDESGA-32",
+    "--transparent",
+    "--seed",
+    "1301",
+    "--no-open",
+    "--exact-prompt",
+    "--negative",
+    "sprite sheet, text, watermark, realistic, blurry, multiple panels",
+    "--dither-amount",
+    "0",
+    "--show-prompt",
+    "--name",
+    "greenhouse_heart",
+    "--output-to",
+    "assets-source/drafts/greenhouse_heart"
+  ],
+  "toolCommit": "355bd0b",
+  "toolVersion": "pixelmon 1.9.0",
+  "modelIdentifiers": [
+    "sd_xl_base_1.0.safetensors",
+    "pixel-art-xl.safetensors"
+  ],
+  "modelHashes": {
+    "sd_xl_base_1.0.safetensors": "31e35c80fc4829d14f90153f4c74cd59c90b779f6afe05a74cd6120b893f7e5b",
+    "pixel-art-xl.safetensors": "4234637cb80c998f41e348e6a6cb6bc20d8d038b2b0f256b6129b3b5e353eef7"
+  },
+  "generatedAt": "2026-10-14T04:10:22+00:00",
+  "sourceFiles": [
+    "assets-source/candidates/greenhouse_heart/pixelmon-base.png",
+    "assets-source/candidates/greenhouse_heart/generation.txt"
+  ],
+  "edits": [],
+  "licenseNotes": "Pixelmon MIT; SDXL CreativeML Open RAIL++-M; Pixel Art XL CreativeML Open RAIL-M; local weight identity against upstream unverified.",
+  "reviewStatus": "draft",
+  "evidence": [],
+  "productionParameters": {
+    "size": 128,
+    "palette": "ENDESGA-32",
+    "steps": 25,
+    "cfg": 7,
+    "loraStrength": 1,
+    "ditherAmount": 0,
+    "generationResolution": 1024,
+    "sampler": "euler",
+    "scheduler": "normal",
+    "fast": false
+  }
+}

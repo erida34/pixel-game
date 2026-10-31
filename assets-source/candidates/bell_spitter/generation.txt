@@ -1,0 +1,6 @@
+🎨 'single squat rooted creature with a large open brass bell mouth and two gripping root feet, broad silhouette, top-down three-quarter game view, facing south, crisp pixel art, dark outline, centered isolated subject on white background, no ground'  |  64px  |  ENDESGA-32 |  transparent  |  quality 25st  |  1 image(s)
+   📝 positive: single squat rooted creature with a large open brass bell mouth and two gripping root feet, broad silhouette, top-down three-quarter game view, facing south, crisp pixel art, dark outline, centered isolated subject on white background, no ground
+   🚫 negative: sprite sheet, text, watermark, realistic, blurry, multiple panels
+   🧩 lora:     pixel-art-xl.safetensors @ 1
+   ✅ seed=1205  ->  /mnt/c/Users/1/Documents/GitHub/pixel-game/assets-source/drafts/bell_spitter/bell_spitter_64x64_ENDESGA-32_s1205_sprite_00001_.png
+   all done in 14.6s  |  files in /mnt/c/Users/1/Documents/GitHub/pixel-game/assets-source/drafts/bell_spitter

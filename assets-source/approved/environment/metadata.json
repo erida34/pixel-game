@@ -1,0 +1,82 @@
+{
+  "assetId": "environment",
+  "sourceKind": "Pixelmon lantern base study + scripted pixel redraw; plants and puddles derived from accepted ground art",
+  "prompt": "single ruined brass street lantern entwined with dark teal roots, small amber flame, abandoned nocturnal city, top-down three-quarter game view, crisp pixel art, restrained detail, dark outline, centered isolated object on white background, no ground",
+  "negativePrompt": "sprite sheet, multiple objects, text, watermark, realistic, antialiased, blurry",
+  "seed": 2401,
+  "arguments": [
+    "single ruined brass street lantern entwined with dark teal roots, small amber flame, abandoned nocturnal city, top-down three-quarter game view, crisp pixel art, restrained detail, dark outline, centered isolated object on white background, no ground",
+    "--size",
+    "64",
+    "--palette",
+    "ENDESGA-32",
+    "--transparent",
+    "--seed",
+    "2401",
+    "--no-open",
+    "--exact-prompt",
+    "--negative",
+    "sprite sheet, multiple objects, text, watermark, realistic, antialiased, blurry",
+    "--dither-amount",
+    "0",
+    "--show-prompt",
+    "--name",
+    "street-lantern",
+    "--output-to",
+    "assets-source/drafts/environment"
+  ],
+  "toolCommit": "355bd0b",
+  "toolVersion": "1.9.0",
+  "modelIdentifiers": [
+    "sd_xl_base_1.0.safetensors",
+    "pixel-art-xl.safetensors"
+  ],
+  "generatedAt": "2026-10-13T18:56:22+00:00",
+  "sourceFiles": [
+    "assets-source/approved/environment/pixelmon-base.png",
+    "assets-source/approved/environment/generation.txt",
+    "assets-source/approved/grass/pixelmon-base.png",
+    "assets-source/approved/dirt/pixelmon-base.png"
+  ],
+  "edits": [
+    {
+      "author": "Codex",
+      "tool": "tools/build-environment.py / Pillow 12.3.0",
+      "operations": "Full pixel redraw; articulated leaf positions, moving ripple pixel clusters, four flame silhouettes. Roots, bench and broken greenhouse rib constructed in the same palette. Fixed 64x64 canvas and feet at y=56; no scaled/rotated animation."
+    }
+  ],
+  "licenseNotes": "Pixelmon MIT; SDXL CreativeML Open RAIL++-M; Pixel Art XL CreativeML Open RAIL-M. Local model identity not verified against upstream.",
+  "reviewStatus": "approved",
+  "evidence": [
+    "docs/evidence/stage-3/start-1x.png",
+    "docs/evidence/stage-3/start-2x.png",
+    "docs/evidence/stage-3/east-chunk.png",
+    "docs/evidence/stage-3/map-travel.webm",
+    "docs/evidence/stage-3/obstacle-walk.webm",
+    "docs/evidence/stage-3/browser-check.json",
+    "docs/evidence/stage-3/obstacle-check.json",
+    "docs/evidence/stage-3/video-check.json"
+  ],
+  "modelHashes": {
+    "sd_xl_base_1.0.safetensors": "31e35c80fc4829d14f90153f4c74cd59c90b779f6afe05a74cd6120b893f7e5b",
+    "pixel-art-xl.safetensors": "4234637cb80c998f41e348e6a6cb6bc20d8d038b2b0f256b6129b3b5e353eef7"
+  },
+  "licenseSources": [
+    "https://github.com/grymmjack/pixelmon/blob/main/LICENSE",
+    "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0",
+    "https://huggingface.co/nerijs/pixel-art-xl"
+  ],
+  "productionParameters": {
+    "size": 64,
+    "palette": "ENDESGA-32",
+    "steps": 25,
+    "cfg": 7,
+    "loraStrength": 1,
+    "ditherAmount": 0,
+    "generationResolution": 1024,
+    "sampler": "euler",
+    "scheduler": "normal",
+    "fast": false
+  },
+  "reviewRef": "docs/evidence/stage-3/art-review.json"
+}

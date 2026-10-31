@@ -1,0 +1,162 @@
+{
+  "date": "2026-10-13",
+  "browser": "Chromium 155.0.8059.40",
+  "viewport": {
+    "width": 1360,
+    "height": 1120
+  },
+  "accelerated": false,
+  "method": "Five real-time browser segments with explicit pauses between them; only UI input and read-only diagnostics.",
+  "files": [
+    "run-segment-1.json",
+    "run-segment-2.json",
+    "run-segment-3.json",
+    "run-segment-4.json",
+    "run-segment-5.json"
+  ],
+  "result": {
+    "outcome": "prototype_complete",
+    "elapsedSeconds": 180,
+    "level": 14,
+    "kills": 193,
+    "seed": 20261013,
+    "inventory": {
+      "amber_lantern": 5,
+      "brass_lens": 3,
+      "boots": 3
+    }
+  },
+  "choices": [
+    {
+      "time": 13.383333333333578,
+      "level": 2,
+      "id": "amber_lantern",
+      "before": {
+        "amber_lantern": 1,
+        "brass_lens": 0,
+        "boots": 0
+      }
+    },
+    {
+      "time": 19.000000000000203,
+      "level": 3,
+      "id": "amber_lantern",
+      "before": {
+        "amber_lantern": 2,
+        "brass_lens": 0,
+        "boots": 0
+      }
+    },
+    {
+      "time": 24.199999999999907,
+      "level": 4,
+      "id": "amber_lantern",
+      "before": {
+        "amber_lantern": 3,
+        "brass_lens": 0,
+        "boots": 0
+      }
+    },
+    {
+      "time": 32.41666666666611,
+      "level": 5,
+      "id": "amber_lantern",
+      "before": {
+        "amber_lantern": 4,
+        "brass_lens": 0,
+        "boots": 0
+      }
+    },
+    {
+      "time": 42.91666666666551,
+      "level": 6,
+      "id": "brass_lens",
+      "before": {
+        "amber_lantern": 5,
+        "brass_lens": 0,
+        "boots": 0
+      }
+    },
+    {
+      "time": 55.716666666664786,
+      "level": 7,
+      "id": "brass_lens",
+      "before": {
+        "amber_lantern": 5,
+        "brass_lens": 1,
+        "boots": 0
+      }
+    },
+    {
+      "time": 70.96666666666393,
+      "level": 8,
+      "id": "brass_lens",
+      "before": {
+        "amber_lantern": 5,
+        "brass_lens": 2,
+        "boots": 0
+      }
+    },
+    {
+      "time": 109.5333333333284,
+      "level": 9,
+      "id": "boots",
+      "before": {
+        "amber_lantern": 5,
+        "brass_lens": 3,
+        "boots": 0
+      }
+    },
+    {
+      "time": 139.43333333333644,
+      "level": 10,
+      "id": "boots",
+      "before": {
+        "amber_lantern": 5,
+        "brass_lens": 3,
+        "boots": 1
+      }
+    },
+    {
+      "time": 147.80000000000976,
+      "level": 11,
+      "id": "boots",
+      "before": {
+        "amber_lantern": 5,
+        "brass_lens": 3,
+        "boots": 2
+      }
+    },
+    {
+      "time": 152.61666666668026,
+      "level": 12,
+      "id": "heal",
+      "before": {
+        "amber_lantern": 5,
+        "brass_lens": 3,
+        "boots": 3
+      }
+    },
+    {
+      "time": 161.40000000002058,
+      "level": 13,
+      "id": "heal",
+      "before": {
+        "amber_lantern": 5,
+        "brass_lens": 3,
+        "boots": 3
+      }
+    },
+    {
+      "time": 171.6833333333621,
+      "level": 14,
+      "id": "heal",
+      "before": {
+        "amber_lantern": 5,
+        "brass_lens": 3,
+        "boots": 3
+      }
+    }
+  ],
+  "errors": []
+}

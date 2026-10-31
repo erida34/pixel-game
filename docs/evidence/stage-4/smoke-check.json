@@ -1,0 +1,69 @@
+{
+  "errors": [],
+  "checks": [
+    "natural XP -> three choices -> keyboard guard -> real acquisition and animated icon",
+    "pause and actual browser focus",
+    "three independent restarts after review; 1x/2x display"
+  ],
+  "restarts": [
+    {
+      "objects": "1037",
+      "inventory": {
+        "amber_lantern": 1,
+        "glass_needles": 0,
+        "ember_moths": 0,
+        "root_bell": 0,
+        "wick": 0,
+        "brass_lens": 0,
+        "boots": 0,
+        "wax_seal": 0,
+        "firefly_jar": 0,
+        "keepers_watch": 0
+      }
+    },
+    {
+      "objects": "1037",
+      "inventory": {
+        "amber_lantern": 1,
+        "glass_needles": 0,
+        "ember_moths": 0,
+        "root_bell": 0,
+        "wick": 0,
+        "brass_lens": 0,
+        "boots": 0,
+        "wax_seal": 0,
+        "firefly_jar": 0,
+        "keepers_watch": 0
+      }
+    },
+    {
+      "objects": "1037",
+      "inventory": {
+        "amber_lantern": 1,
+        "glass_needles": 0,
+        "ember_moths": 0,
+        "root_bell": 0,
+        "wick": 0,
+        "brass_lens": 0,
+        "boots": 0,
+        "wax_seal": 0,
+        "firefly_jar": 0,
+        "keepers_watch": 0
+      }
+    }
+  ],
+  "choice": {
+    "offers": [
+      "wax_seal",
+      "boots",
+      "glass_needles"
+    ],
+    "id": "wax_seal",
+    "time": "14.416666666666963"
+  },
+  "browser": "155.0.8059.41",
+  "viewport": {
+    "width": 1360,
+    "height": 1120
+  }
+}

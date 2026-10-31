@@ -1,0 +1,21 @@
+{
+  "name": "last-lantern-keeper",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "assets:check": "node tools/check-assets.mjs",
+    "build": "npm run typecheck && npm run assets:check && vite build",
+    "preview": "vite preview --host 127.0.0.1"
+  },
+  "dependencies": { "phaser": "3.90.0" },
+  "devDependencies": {
+    "typescript": "5.9.3",
+    "vite": "8.3.4",
+    "vitest": "4.1.11",
+    "pngjs": "7.0.0"
+  }
+}

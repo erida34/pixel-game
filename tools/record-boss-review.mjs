@@ -1,0 +1,13 @@
+import fs from 'node:fs';
+import crypto from 'node:crypto';
+if(!process.argv.includes('--accept'))throw new Error('Run with --accept only after viewing both scales and the motion recordings.');
+const root='docs/evidence/stage-5';
+const evidence=['boss-contact-sheet-1x.png','boss-contact-sheet-2x.png','boss-thorns-prepare-2x.png','boss-summon-prepare-2x.png','boss-thorns-release-2x.png','boss-paused-2x.png','boss-attacks-2x.webm','boss-check.json','boss-1x.png','video-check.json','video-finale-20.3.png','video-finale-20.9.png','full-run.json','full-run-result.png','boss-finale-2x.webm'].map(f=>`${root}/${f}`);
+for(const f of evidence)fs.accessSync(f);
+const boss=JSON.parse(fs.readFileSync(`${root}/boss-check.json`,'utf8'));
+const run=JSON.parse(fs.readFileSync(`${root}/full-run.json`,'utf8'));
+if(boss.errors.length||run.errors.length||run.result?.outcome!=='victory'||run.result.elapsedSeconds<600||!run.result.bossDefeated)throw new Error('Browser/full-run evidence failed');
+const hash=f=>crypto.createHash('sha256').update(fs.readFileSync(f)).digest('hex');
+const hashes={recipeSha256:hash('tools/build-boss.py'),textureSha256:hash('public/assets/boss/greenhouse_heart.png'),atlasSha256:hash('public/assets/boss/greenhouse_heart.json')};
+fs.writeFileSync(`${root}/art-review.json`,JSON.stringify({status:'approved',reviewer:'Codex visual review; user acceptance not claimed',reviewedAt:new Date().toISOString(),hashes,evidence,notes:'Viewed wax core, broken brass cage and articulated roots at 1x/2x. Pixelmon produced a greenhouse backdrop and was used only as a material study; runtime fully redrawn. Distinct thorn and summon warnings/releases observed in Phaser, pause freezes all boss state, eight-frame collapse recorded in a real full run. Fixed facing rooted organism; no whole-image rotation or scaling.'},null,2)+'\n');
+console.log('Recorded boss approval; rebuild the boss atlas to apply.');

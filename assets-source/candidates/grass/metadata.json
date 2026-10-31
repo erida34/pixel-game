@@ -1,0 +1,39 @@
+{
+  "assetId": "grass",
+  "sourceKind": "Pixelmon SDXL base, candidate",
+  "prompt": "seamless top-down ground texture, dark teal moss with sparse short grass, abandoned nocturnal garden, subdued contrast, flat even lighting, crisp pixel art, no objects, no perspective, no cast shadows",
+  "negativePrompt": null,
+  "seed": 2101,
+  "arguments": [
+    "seamless top-down ground texture, dark teal moss with sparse short grass, abandoned nocturnal garden, subdued contrast, flat even lighting, crisp pixel art, no objects, no perspective, no cast shadows",
+    "--size",
+    "32",
+    "--palette",
+    "ENDESGA-32",
+    "--seed",
+    "2101",
+    "--no-open",
+    "--show-prompt",
+    "--name",
+    "grass",
+    "--output-to",
+    "assets-source/drafts/grass",
+    "--tile",
+    "--dither-amount",
+    "0"
+  ],
+  "toolCommit": "355bd0b",
+  "toolVersion": "1.9.0",
+  "modelIdentifiers": [
+    "sd_xl_base_1.0.safetensors",
+    "pixel-art-xl.safetensors"
+  ],
+  "generatedAt": "2026-10-13T17:51:11+00:00",
+  "sourceFiles": [
+    "assets-source/candidates/grass/pixelmon-base.png"
+  ],
+  "edits": [],
+  "licenseNotes": "Pixelmon: MIT. SDXL: CreativeML Open RAIL++-M. Pixel Art XL model conditions must be checked before approval.",
+  "reviewStatus": "draft",
+  "evidence": []
+}

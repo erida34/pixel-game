@@ -1,0 +1,7 @@
+🎨 'seamless top-down ground texture, damp dark soil with tiny scattered pebbles, abandoned nocturnal garden, subdued contrast, flat even lighting, crisp pixel art, no objects, no perspective, no cast shadows'  |  32px  |  ENDESGA-32  |  quality 25st  |  1 image(s)
+   📝 positive: pixel art texture, seamless top-down ground texture, damp dark soil with tiny scattered pebbles, abandoned nocturnal garden, subdued contrast, flat even lighting, crisp pixel art, no objects, no perspective, no cast shadows, seamless repeating texture, flat even lighting, pattern fills the whole frame
+   🚫 negative: 3d render, realistic, photograph, blurry, smooth gradient, antialiased, jpeg artifacts, text, watermark, signature, border, frame, vignette, perspective, horizon, single object, character, centered composition
+   🧩 lora:     pixel-art-xl.safetensors @ 1
+   ✅ seed=2201  ->  /mnt/c/Users/1/Documents/GitHub/pixel-game/assets-source/drafts/dirt/dirt_32x32_ENDESGA-32_s2201_sprite_00001_.png
+      3x3 seam check  ->  /mnt/c/Users/1/Documents/GitHub/pixel-game/assets-source/drafts/dirt/dirt_32x32_ENDESGA-32_s2201_tiled_00001_.png
+   all done in 16.6s  |  files in /mnt/c/Users/1/Documents/GitHub/pixel-game/assets-source/drafts/dirt

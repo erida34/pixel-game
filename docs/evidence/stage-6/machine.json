@@ -1,0 +1,32 @@
+{
+  "node": "v25.1.0",
+  "fixture": "300 live mixed enemies replenished after real deaths; all 4 weapons at level 5; hero HP and XP threshold 1000000; normal AI, world, collisions and damage",
+  "method": "headed installed browser, foreground page, requestAnimationFrame intervals only when Phaser frameSerial changes; raw intervals and 250 ms samples; WASD 5 seconds per direction",
+  "measureSeconds": 60,
+  "target": "Average >=60 FPS; p95 <=16.667 ms; all samples 300 live enemies; continuous simulation",
+  "seed": 20261014,
+  "canvas": {
+    "height": 720,
+    "width": 1280
+  },
+  "warmupSeconds": 10,
+  "os": {
+    "Caption": "Майкрософт Windows 11 Pro",
+    "Version": "10.0.26200"
+  },
+  "date": "2026-10-14",
+  "viewport": {
+    "height": 1120,
+    "width": 1360
+  },
+  "cpu": {
+    "Name": "Intel(R) Core(TM) i5-14400F",
+    "NumberOfCores": 10,
+    "NumberOfLogicalProcessors": 16
+  },
+  "volume": 0.45,
+  "gpu": {
+    "Name": "NVIDIA GeForce RTX 5060",
+    "DriverVersion": "32.0.16.1692"
+  }
+}

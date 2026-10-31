@@ -1,0 +1,15 @@
+import fs from 'node:fs';
+import crypto from 'node:crypto';
+if(!process.argv.includes('--accept'))throw new Error('Use --accept after viewing PNG, videos and successful browser checks.');
+const evidence=['docs/evidence/stage-4/enemy-contact-sheet.png','docs/evidence/stage-4/enemy-contact-sheet-2x.png','docs/evidence/stage-4/thorn_runner-prepare.png','docs/evidence/stage-4/bell_spitter-prepare.png','docs/evidence/stage-4/lantern_thief-prepare.png','docs/evidence/stage-4/build-close-early.png','docs/evidence/stage-4/build-ranged-early.png','docs/evidence/stage-4/build-mobile-early.png','docs/evidence/stage-4/content-1x.png','docs/evidence/stage-4/attacks.webm','docs/evidence/stage-4/builds.webm','docs/evidence/stage-4/enemies-check.json','docs/evidence/stage-4/builds-check.json','docs/evidence/stage-4/video-check.json'];
+for (let n=evidence.length-1;n>=0;n--) if (['docs/evidence/stage-4/attacks.webm','docs/evidence/stage-4/builds.webm'].includes(evidence[n])) evidence.splice(n,1);
+for(const file of evidence)fs.accessSync(file);
+evidence.push('docs/evidence/stage-4/final-effects-2x.webm','docs/evidence/stage-4/attacks-2x.webm','docs/evidence/stage-4/builds-2x.webm');
+for(const file of evidence.slice(-3))fs.accessSync(file);
+for(const name of ['enemies','builds'])if(JSON.parse(fs.readFileSync(`docs/evidence/stage-4/${name}-check.json`)).errors.length)throw new Error('Browser errors');
+const hash=file=>crypto.createHash('sha256').update(fs.readFileSync(file)).digest('hex');
+const manifest=JSON.parse(fs.readFileSync('public/assets/manifest.json','utf8'));
+const ids=['wax_walker','moth_swarm','thorn_runner','bell_spitter','lantern_thief','content_icons','content_fx'];
+const assets=Object.fromEntries(ids.map(id=>{const a=manifest.assets.find(a=>a.id===id);if(!a)throw new Error(id);return [id,{recipeSha256:hash('tools/build-content.py'),textureSha256:hash('public/'+a.texture),atlasSha256:hash('public/'+a.atlas)}];}));
+fs.writeFileSync('docs/evidence/stage-4/art-review.json',JSON.stringify({status:'approved',reviewer:'Codex visual review; user acceptance not claimed',reviewedAt:new Date().toISOString(),assets,evidence,notes:'Viewed fixed-canvas movement, hit/death and distinct silhouettes at 1x/2x. Cardinal views are separately constructed; swarm has recorded radial symmetry and independent wing poses. Telegraphs and three builds verified in Phaser. Pixelmon studies required full redraw; the item study is a material reference, all 13 icon shapes are authored. No generic image rotation/scaling substituted for living animation.'},null,2)+'\n');
+console.log('Recorded content approval; rebuild content to apply.');

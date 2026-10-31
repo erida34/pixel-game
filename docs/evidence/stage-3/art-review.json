@@ -1,0 +1,19 @@
+{
+  "status": "approved",
+  "reviewer": "Codex visual review, not user acceptance",
+  "reviewedAt": "2026-10-13T19:09:18.095Z",
+  "recipeSha256": "0b8fb01bba76ec41328e8baec5bb2a7099270fa86b14821d9428c52c8fd8764b",
+  "textureSha256": "ea8e60c9fc276a3e3da42c62c2e90664cc24046a61f267a7f1bd5e08486e3245",
+  "atlasSha256": "eba7c171513b2710b014cd953a44ebf7cbe82cac0c0a0df97cb7208e8ebe615b",
+  "evidence": [
+    "docs/evidence/stage-3/start-1x.png",
+    "docs/evidence/stage-3/start-2x.png",
+    "docs/evidence/stage-3/east-chunk.png",
+    "docs/evidence/stage-3/map-travel.webm",
+    "docs/evidence/stage-3/obstacle-walk.webm",
+    "docs/evidence/stage-3/browser-check.json",
+    "docs/evidence/stage-3/obstacle-check.json",
+    "docs/evidence/stage-3/video-check.json"
+  ],
+  "notes": "Viewed plants, shallow water and four flame frames at 1x and 2x; fixed anchors and sparse obstacle silhouettes match the ground palette. Base Pixelmon study had excess lantern structures; runtime is fully redrawn and only retains the design language. Static scenery remains static; animated parts use separate pixel poses."
+}

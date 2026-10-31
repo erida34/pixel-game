@@ -1,0 +1,39 @@
+{
+  "assetId": "dirt",
+  "sourceKind": "Pixelmon SDXL base, candidate",
+  "prompt": "seamless top-down ground texture, damp dark soil with tiny scattered pebbles, abandoned nocturnal garden, subdued contrast, flat even lighting, crisp pixel art, no objects, no perspective, no cast shadows",
+  "negativePrompt": null,
+  "seed": 2201,
+  "arguments": [
+    "seamless top-down ground texture, damp dark soil with tiny scattered pebbles, abandoned nocturnal garden, subdued contrast, flat even lighting, crisp pixel art, no objects, no perspective, no cast shadows",
+    "--size",
+    "32",
+    "--palette",
+    "ENDESGA-32",
+    "--seed",
+    "2201",
+    "--no-open",
+    "--show-prompt",
+    "--name",
+    "dirt",
+    "--output-to",
+    "assets-source/drafts/dirt",
+    "--tile",
+    "--dither-amount",
+    "0"
+  ],
+  "toolCommit": "355bd0b",
+  "toolVersion": "1.9.0",
+  "modelIdentifiers": [
+    "sd_xl_base_1.0.safetensors",
+    "pixel-art-xl.safetensors"
+  ],
+  "generatedAt": "2026-10-13T17:51:27+00:00",
+  "sourceFiles": [
+    "assets-source/candidates/dirt/pixelmon-base.png"
+  ],
+  "edits": [],
+  "licenseNotes": "Pixelmon: MIT. SDXL: CreativeML Open RAIL++-M. Pixel Art XL model conditions must be checked before approval.",
+  "reviewStatus": "draft",
+  "evidence": []
+}

@@ -1,0 +1,23 @@
+# Будущие зависимости и сборки
+node_modules/
+dist/
+coverage/
+.vite/
+*.tsbuildinfo
+
+# Локальные настройки и секреты
+.env
+.env.*
+!.env.example
+*.local
+*.log
+
+# Черновые рендеры; принятые исходники и доказательства сохраняются
+assets-source/drafts/
+assets-source/processed/
+
+# Локальные артефакты браузерных инструментов
+playwright-report/
+test-results/
+.playwright-cli/
+output/playwright/

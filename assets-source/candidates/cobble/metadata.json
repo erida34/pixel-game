@@ -1,0 +1,39 @@
+{
+  "assetId": "cobble",
+  "sourceKind": "Pixelmon SDXL base, candidate",
+  "prompt": "seamless top-down ground texture, small worn wet cobblestones with dark seams and sparse moss, abandoned nocturnal city, subdued contrast, flat even lighting, crisp pixel art, no objects, no perspective, no cast shadows",
+  "negativePrompt": null,
+  "seed": 2301,
+  "arguments": [
+    "seamless top-down ground texture, small worn wet cobblestones with dark seams and sparse moss, abandoned nocturnal city, subdued contrast, flat even lighting, crisp pixel art, no objects, no perspective, no cast shadows",
+    "--size",
+    "32",
+    "--palette",
+    "ENDESGA-32",
+    "--seed",
+    "2301",
+    "--no-open",
+    "--show-prompt",
+    "--name",
+    "cobble",
+    "--output-to",
+    "assets-source/drafts/cobble",
+    "--tile",
+    "--dither-amount",
+    "0"
+  ],
+  "toolCommit": "355bd0b",
+  "toolVersion": "1.9.0",
+  "modelIdentifiers": [
+    "sd_xl_base_1.0.safetensors",
+    "pixel-art-xl.safetensors"
+  ],
+  "generatedAt": "2026-10-13T17:51:44+00:00",
+  "sourceFiles": [
+    "assets-source/candidates/cobble/pixelmon-base.png"
+  ],
+  "edits": [],
+  "licenseNotes": "Pixelmon: MIT. SDXL: CreativeML Open RAIL++-M. Pixel Art XL model conditions must be checked before approval.",
+  "reviewStatus": "draft",
+  "evidence": []
+}

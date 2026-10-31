@@ -1,0 +1,60 @@
+:root { color-scheme: dark; font-family: Consolas, "Courier New", monospace; color: #c7cfcc; background: #10141f; }
+* { box-sizing: border-box; }
+body { margin: 0; min-width: 680px; }
+main { width: min(1320px, calc(100% - 40px)); margin: 36px auto; }
+header { margin-bottom: 26px; }
+.eyebrow { color: #d9a066; font-size: 11px; letter-spacing: 3px; }
+h1 { color: #e8d9bb; font-size: 32px; letter-spacing: -1px; margin: 14px 0 10px; font-weight: 500; }
+header p, .note { color: #788b90; font-size: 13px; }
+nav { display: flex; gap: 8px; margin-bottom: 12px; }
+button { font: inherit; font-size: 12px; color: #8fa3a7; border: 1px solid #293a40; padding: 12px 16px; background: #151f28; cursor: pointer; }
+button[aria-pressed=true] { color: #f4c078; border-color: #b87942; background: #292823; }
+button:hover, button:focus-visible { border-color: #f4c078; outline: 2px solid #f4c078; outline-offset: 2px; }
+#game { position: relative; width: 100%; display: flex; justify-content: center; align-items: center; min-height: 360px; background: #0b1019; border: 1px solid #293a40; overflow: hidden; }
+#game:focus-visible { outline: 2px solid #d9a066; outline-offset: 3px; }
+canvas { display: block; image-rendering: pixelated; }
+.controls { display: flex; flex-wrap: wrap; gap: 22px; padding: 18px 0; font-size: 12px; color: #8fa3a7; }
+kbd { color: #dfc599; font: inherit; }
+footer { display: flex; justify-content: space-between; border-top: 1px solid #293a40; padding-top: 14px; font-size: 11px; color: #a7bdad; }
+#asset-status { color: #d9a066; }
+.note { margin-top: 22px; }
+[hidden] { display: none !important; }
+#hud { padding: 12px 16px; background: #151f28; border: 1px solid #293a40; font-size: 12px; }
+.hud-row { display: flex; justify-content: space-between; gap: 20px; }
+.hud-bars { display: flex; gap: 24px; margin: 8px 0; }
+progress { height: 6px; width: 50%; border: 0; background: #10141f; accent-color: #feae34; }
+progress::-webkit-progress-bar { background: #10141f; }
+progress::-webkit-progress-value { background: #feae34; }
+#xp-bar::-webkit-progress-value { background: #63c74d; }
+#inventory { color: #b3ac91; font-size: 11px; }
+#run-panel { position: absolute; inset: 0; z-index: 2; display: flex; align-items: center; justify-content: center; background: #10141fbb; }
+.dialog { text-align: center; width: min(600px, 94%); padding: 22px; background: #151f28f5; border: 1px solid #b87942; animation: appear 150ms ease-out; }
+h2 { font-size: 26px; color: #e8d9bb; font-weight: 500; margin: 12px 0; }
+.dialog p { font-size: 13px; line-height: 1.7; }
+.muted { color: #788b90; font-size: 11px !important; }
+.primary { color: #f4c078; border-color: #b87942; background: #292823; margin: 6px; }
+.cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
+.cards button { display: flex; flex-direction: column; align-items: center; gap: 12px; min-height: 140px; padding: 12px 8px; }
+.cards strong { color: #e8d9bb; font-size: 13px; }
+.cards span { line-height: 1.5; }
+.card-key { color: #feae34; border-bottom: 1px solid #b87942; }
+.build { color: #d9a066; }
+@keyframes appear { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: translateY(0); } }
+.review-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; margin: 12px 0; }
+.content-icon { display: inline-block; flex-shrink: 0; width: 32px; height: 32px; image-rendering: pixelated; }
+#inventory { display: flex; gap: 12px; flex-wrap: wrap; min-height: 32px; }
+.inventory-item { display: inline-flex; align-items: center; gap: 2px; animation: confirm 250ms ease-out; }
+@keyframes confirm { from { background: #b8794288; transform: translateY(-4px); } to { background: transparent; transform: translateY(0); } }
+
+#boss-hud { width: min(100%, 1280px); margin: 0 auto 8px; color: #ead4aa; font-size: 13px; }
+#boss-bar { display: block; width: 100%; height: 8px; accent-color: #b55088; margin-top: 4px; }
+
+#boss-bar::-webkit-progress-value { background: #b55088; }
+
+#settings-panel { position: absolute; inset: 0; z-index: 4; display: flex; align-items: center; justify-content: center; background: #10141fe8; }
+.setting { display: block; text-align: left; margin: 20px 0; font-size: 14px; }
+.setting output { float: right; color: #f4c078; }
+.setting input[type=range] { width: 100%; display: block; margin-top: 14px; accent-color: #feae34; }
+.checkbox input { accent-color: #feae34; }
+input:focus-visible { outline: 2px solid #f4c078; outline-offset: 4px; }
+@media (prefers-reduced-motion: reduce) { .dialog, .inventory-item { animation: none; } }

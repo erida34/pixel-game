@@ -1,0 +1,36 @@
+{
+  "errors": [],
+  "warnings": [],
+  "checks": [
+    "static assets, natural combat/XP, upgrade icons and pause",
+    "graphics workshop and same content workshop in static build"
+  ],
+  "restarts": [
+    {
+      "objects": "1037",
+      "time": "0.016666666666666666"
+    },
+    {
+      "objects": "1037",
+      "time": "0.016666666666666666"
+    },
+    {
+      "objects": "1037",
+      "time": "0.016666666666666666"
+    }
+  ],
+  "choice": {
+    "offers": [
+      "wax_seal",
+      "boots",
+      "glass_needles"
+    ],
+    "id": "wax_seal",
+    "time": "14.416666666666963"
+  },
+  "browser": "155.0.8059.41",
+  "viewport": {
+    "width": 1360,
+    "height": 1120
+  }
+}

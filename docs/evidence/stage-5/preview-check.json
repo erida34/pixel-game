@@ -1,0 +1,78 @@
+{
+  "errors": [],
+  "warnings": [],
+  "checks": [
+    "static assets, natural combat/XP, upgrade icons and pause",
+    "graphics workshop and same content workshop in static build"
+  ],
+  "restarts": [
+    {
+      "objects": "1037",
+      "time": "0.016666666666666666",
+      "boss": null,
+      "ordinarySpawns": "0",
+      "inventory": {
+        "amber_lantern": 1,
+        "glass_needles": 0,
+        "ember_moths": 0,
+        "root_bell": 0,
+        "wick": 0,
+        "brass_lens": 0,
+        "boots": 0,
+        "wax_seal": 0,
+        "firefly_jar": 0,
+        "keepers_watch": 0
+      }
+    },
+    {
+      "objects": "1037",
+      "time": "0.016666666666666666",
+      "boss": null,
+      "ordinarySpawns": "0",
+      "inventory": {
+        "amber_lantern": 1,
+        "glass_needles": 0,
+        "ember_moths": 0,
+        "root_bell": 0,
+        "wick": 0,
+        "brass_lens": 0,
+        "boots": 0,
+        "wax_seal": 0,
+        "firefly_jar": 0,
+        "keepers_watch": 0
+      }
+    },
+    {
+      "objects": "1037",
+      "time": "0.016666666666666666",
+      "boss": null,
+      "ordinarySpawns": "0",
+      "inventory": {
+        "amber_lantern": 1,
+        "glass_needles": 0,
+        "ember_moths": 0,
+        "root_bell": 0,
+        "wick": 0,
+        "brass_lens": 0,
+        "boots": 0,
+        "wax_seal": 0,
+        "firefly_jar": 0,
+        "keepers_watch": 0
+      }
+    }
+  ],
+  "choice": {
+    "offers": [
+      "firefly_jar",
+      "wax_seal",
+      "wick"
+    ],
+    "id": "firefly_jar",
+    "time": "13.383333333333578"
+  },
+  "browser": "155.0.8059.41",
+  "viewport": {
+    "width": 1360,
+    "height": 1120
+  }
+}

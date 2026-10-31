@@ -1,0 +1,33 @@
+async (page) => {
+  const errors = [], warnings = [];
+  page.on('pageerror', error => errors.push(error.message));
+  page.on('console', msg => { if (msg.type() === 'error') errors.push(msg.text()); if (msg.type() === 'warning') warnings.push(msg.text()); });
+  page.on('response', response => { if (response.status() >= 400) errors.push(`${response.status()} ${response.url()}`); });
+  await page.setViewportSize({ width: 1360, height: 1120 });
+  await page.goto('http://127.0.0.1:4180/?debug=1&seed=20261013');
+  const assert = (ok, message) => { if (!ok) throw new Error(message); };
+  const state = () => page.locator('canvas').evaluate(el => ({ ...el.dataset }));
+  await page.getByRole('button', { name: 'Начать забег' }).click();
+  await page.waitForFunction(() => document.querySelector('canvas').dataset.phase === 'running');
+  const initial = await state();
+  await page.keyboard.down('d'); await page.waitForTimeout(650); await page.keyboard.up('d');
+  const moved = await state(); assert(Number(moved.x) > Number(initial.x) + 40, 'movement and camera');
+  await page.waitForFunction(() => document.querySelector('canvas').dataset.phase === 'upgrade', null, { timeout: 40000 });
+  const offers = await page.locator('[data-upgrade]').evaluateAll(buttons => buttons.map(button => button.dataset.upgrade));
+  assert(new Set(offers).size === 3, 'distinct production choices');
+  const before = await state(); await page.keyboard.press('1'); await page.waitForTimeout(60);
+  assert((await state()).phase === 'running', 'keyboard choice');
+  await page.keyboard.press('Escape'); await page.waitForTimeout(60);
+  const paused = await state(); await page.waitForTimeout(250);
+  assert((await state()).time === paused.time, 'preview pause');
+  await page.screenshot({ path: 'docs/evidence/stage-2/preview.png', fullPage: true });
+  await page.getByRole('button', { name: 'Мастерская графики', exact: true }).click();
+  await page.getByRole('button', { name: '03 · Переходы земли' }).click();
+  await page.getByRole('button', { name: 'Играть', exact: true }).click();
+  await page.getByRole('button', { name: 'Начать забег' }).click();
+  await page.waitForFunction(() => document.querySelector('canvas').dataset.phase === 'running' && document.querySelector('canvas').dataset.level === '1');
+  assert((await state()).kills === '0', 'production restart');
+  await page.keyboard.press('Escape');
+  assert(!errors.length && !warnings.length, [...errors, ...warnings].join('; '));
+  return { browser: page.context().browser().version(), before, paused, restart: await state(), offers, errors, warnings, origin: 'http://127.0.0.1:4180', build: 'dist' };
+}

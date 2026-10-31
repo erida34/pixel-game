@@ -1,0 +1,67 @@
+{
+  "date": "2026-10-13",
+  "status": "approved",
+  "reviewer": "Codex: local visual and browser review; no human review claimed",
+  "recipeSha256": "bdd2be2de409659072ef6efe4f367a07af86e5a993a64f5621a3ca5ae75b6799",
+  "observations": [
+    "Hero: all eight projections inspected at 1x/2x. Brass lantern stays on anatomical right; satchel opposite. No whole-sprite mirroring or rotation. Separate articulated legs, forearm and coat hem in the walk cycle. Idle feet stay planted.",
+    "Hero and crawler: hit keeps movement available; death collapses into a separately redrawn silhouette and holds its last frame. Crawler is low and broad, with four directional wax faces and moving root limbs.",
+    "Ground: dirt has no square perimeter; low-contrast grass tufts and rounded staggered cobbles. Both 47-mask sheets inspected, with 3x3 repeats, three variants, concave/convex corners, isolated tiles and a one-tile bridge across x=32.",
+    "Transitions use binary alpha with continuous dirt underneath. No blank background holes. Neighbor coverage test found zero mismatches in 239360 edge pixels. Chunk fixture uses global neighbors; streaming/procedural generation is reserved for stage 3.",
+    "Known limit: this is an accepted small production baseline, not final visual polish or a measured performance target."
+  ],
+  "assets": {
+    "hero_lantern_keeper": {
+      "textureSha256": "3653ba5640c09152a552fd0196b514a834c8d0c5dae4d999ac0120a0c9d0b3e8",
+      "atlasSha256": "f7469bfe9137053551f517b1cfeefb589336d25f9208ae731d0559c04e19ed82",
+      "evidence": [
+        "docs/evidence/stage-1/directions-1x.png",
+        "docs/evidence/stage-1/directions-2x.png",
+        "docs/evidence/stage-1/hit-2x.png",
+        "docs/evidence/stage-1/death-2x.png",
+        "docs/evidence/stage-1/final-movement.webm"
+      ]
+    },
+    "root_crawler": {
+      "textureSha256": "a22c0b39095bb7bb5df7f52fb3d4c17b3744cd1305a8d0c3f1110461604103bd",
+      "atlasSha256": "606951421f3fe51814ee88a32aaee8dd31e2ba8818032f9f91b06987e1e0a3f6",
+      "evidence": [
+        "docs/evidence/stage-1/directions-1x.png",
+        "docs/evidence/stage-1/directions-2x.png",
+        "docs/evidence/stage-1/hit-2x.png",
+        "docs/evidence/stage-1/death-2x.png",
+        "docs/evidence/stage-1/final-movement.webm"
+      ]
+    },
+    "grass": {
+      "textureSha256": "eb223444c6ccf947117dc49741e34633a4518a3d1514ede39610b93ccfbb3673",
+      "atlasSha256": "cefe791e0b830b6e4bfefb9a0e55c5d41974c8ecf921e987e6dd8dd7302e3b7b",
+      "evidence": [
+        "docs/evidence/stage-1/transitions-1x.png",
+        "docs/evidence/stage-1/transitions-2x.png",
+        "docs/evidence/stage-1/junctions-2x.png",
+        "docs/evidence/stage-1/field-2x.png"
+      ]
+    },
+    "dirt": {
+      "textureSha256": "2d290465623da23622904c5c58094d5d1e9c91a2023b24a12dd2d2401333aaa4",
+      "atlasSha256": "b484202c208aa9b5dcb7a52e3381c55bd3037729ed6dfe4a79922ccdbf2f6368",
+      "evidence": [
+        "docs/evidence/stage-1/transitions-1x.png",
+        "docs/evidence/stage-1/transitions-2x.png",
+        "docs/evidence/stage-1/junctions-2x.png",
+        "docs/evidence/stage-1/field-2x.png"
+      ]
+    },
+    "cobble": {
+      "textureSha256": "79d3727b65bc8157b936b56c3a7dda959d1174d7a44268e64beff4a87e1a6f90",
+      "atlasSha256": "8b50d0bb018e0f335ac47b693f4db4e55631d6fc020bdf4bfd547d4ab1ee9384",
+      "evidence": [
+        "docs/evidence/stage-1/transitions-1x.png",
+        "docs/evidence/stage-1/transitions-2x.png",
+        "docs/evidence/stage-1/junctions-2x.png",
+        "docs/evidence/stage-1/field-2x.png"
+      ]
+    }
+  }
+}

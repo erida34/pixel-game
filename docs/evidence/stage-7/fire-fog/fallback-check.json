@@ -1,0 +1,124 @@
+{
+  "canvas": {
+    "phase": "running",
+    "time": "0.733333333333334",
+    "atmosphere": {
+      "enabled": false,
+      "supported": false,
+      "passes": 0,
+      "allocated": 0,
+      "motion": false,
+      "time": null,
+      "capacity": 0,
+      "lights": []
+    },
+    "canvas2d": true
+  },
+  "after": {
+    "phase": "paused",
+    "x": 45
+  },
+  "reduced": {
+    "enabled": true,
+    "supported": true,
+    "passes": 1,
+    "allocated": 1,
+    "motion": false,
+    "time": 0.24999999999999997,
+    "capacity": 24,
+    "lights": [
+      {
+        "id": "hero",
+        "x": -12,
+        "y": -19,
+        "radius": 138,
+        "intensity": 1.08,
+        "color": [
+          1,
+          0.6,
+          0.2
+        ],
+        "priority": 0
+      },
+      {
+        "id": "street/-208/144",
+        "x": -208,
+        "y": 111,
+        "radius": 112,
+        "intensity": 0.95,
+        "color": [
+          1,
+          0.6,
+          0.2
+        ],
+        "priority": 1
+      },
+      {
+        "id": "street/-176/240",
+        "x": -176,
+        "y": 207,
+        "radius": 112,
+        "intensity": 0.95,
+        "color": [
+          1,
+          0.6,
+          0.2
+        ],
+        "priority": 1
+      },
+      {
+        "id": "street/240/-240",
+        "x": 240,
+        "y": -273,
+        "radius": 112,
+        "intensity": 0.95,
+        "color": [
+          1,
+          0.6,
+          0.2
+        ],
+        "priority": 1
+      },
+      {
+        "id": "street/-368/80",
+        "x": -368,
+        "y": 47,
+        "radius": 112,
+        "intensity": 0.95,
+        "color": [
+          1,
+          0.6,
+          0.2
+        ],
+        "priority": 1
+      },
+      {
+        "id": "street/-368/272",
+        "x": -368,
+        "y": 239,
+        "radius": 112,
+        "intensity": 0.95,
+        "color": [
+          1,
+          0.6,
+          0.2
+        ],
+        "priority": 1
+      },
+      {
+        "id": "pulse/0.016666666666666666",
+        "x": 0,
+        "y": 0,
+        "radius": 82.6,
+        "intensity": 0.12222222222222229,
+        "color": [
+          1,
+          0.6,
+          0.2
+        ],
+        "priority": 2
+      }
+    ]
+  },
+  "errors": []
+}

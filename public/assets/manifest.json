@@ -1,0 +1,2201 @@
+{
+  "version": 1,
+  "palette": [
+    "be4a2f",
+    "d77643",
+    "ead4aa",
+    "e4a672",
+    "b86f50",
+    "733e39",
+    "3e2731",
+    "a22633",
+    "e43b44",
+    "f77622",
+    "feae34",
+    "fee761",
+    "63c74d",
+    "3e8948",
+    "265c42",
+    "193c3e",
+    "124e89",
+    "0099db",
+    "2ce8f5",
+    "ffffff",
+    "c0cbdc",
+    "8b9bb4",
+    "5a6988",
+    "3a4466",
+    "262b44",
+    "181425",
+    "ff0044",
+    "68386c",
+    "b55088",
+    "f6757a",
+    "e8b796",
+    "c28569"
+  ],
+  "assets": [
+    {
+      "id": "hero_lantern_keeper",
+      "type": "atlas",
+      "status": "approved",
+      "texture": "assets/hero_lantern_keeper/atlas.png",
+      "atlas": "assets/hero_lantern_keeper/atlas.json",
+      "frameSize": {
+        "width": 64,
+        "height": 64
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.875
+      },
+      "provenance": "assets-source/approved/hero_lantern_keeper/metadata.json",
+      "clips": [
+        {
+          "state": "idle",
+          "direction": "n",
+          "frames": [
+            "hero/idle/n/00",
+            "hero/idle/n/01",
+            "hero/idle/n/02",
+            "hero/idle/n/03"
+          ],
+          "fps": 6,
+          "repeat": -1
+        },
+        {
+          "state": "idle",
+          "direction": "ne",
+          "frames": [
+            "hero/idle/ne/00",
+            "hero/idle/ne/01",
+            "hero/idle/ne/02",
+            "hero/idle/ne/03"
+          ],
+          "fps": 6,
+          "repeat": -1
+        },
+        {
+          "state": "idle",
+          "direction": "e",
+          "frames": [
+            "hero/idle/e/00",
+            "hero/idle/e/01",
+            "hero/idle/e/02",
+            "hero/idle/e/03"
+          ],
+          "fps": 6,
+          "repeat": -1
+        },
+        {
+          "state": "idle",
+          "direction": "se",
+          "frames": [
+            "hero/idle/se/00",
+            "hero/idle/se/01",
+            "hero/idle/se/02",
+            "hero/idle/se/03"
+          ],
+          "fps": 6,
+          "repeat": -1
+        },
+        {
+          "state": "idle",
+          "direction": "s",
+          "frames": [
+            "hero/idle/s/00",
+            "hero/idle/s/01",
+            "hero/idle/s/02",
+            "hero/idle/s/03"
+          ],
+          "fps": 6,
+          "repeat": -1
+        },
+        {
+          "state": "idle",
+          "direction": "sw",
+          "frames": [
+            "hero/idle/sw/00",
+            "hero/idle/sw/01",
+            "hero/idle/sw/02",
+            "hero/idle/sw/03"
+          ],
+          "fps": 6,
+          "repeat": -1
+        },
+        {
+          "state": "idle",
+          "direction": "w",
+          "frames": [
+            "hero/idle/w/00",
+            "hero/idle/w/01",
+            "hero/idle/w/02",
+            "hero/idle/w/03"
+          ],
+          "fps": 6,
+          "repeat": -1
+        },
+        {
+          "state": "idle",
+          "direction": "nw",
+          "frames": [
+            "hero/idle/nw/00",
+            "hero/idle/nw/01",
+            "hero/idle/nw/02",
+            "hero/idle/nw/03"
+          ],
+          "fps": 6,
+          "repeat": -1
+        },
+        {
+          "state": "walk",
+          "direction": "n",
+          "frames": [
+            "hero/walk/n/00",
+            "hero/walk/n/01",
+            "hero/walk/n/02",
+            "hero/walk/n/03",
+            "hero/walk/n/04",
+            "hero/walk/n/05"
+          ],
+          "fps": 10,
+          "repeat": -1
+        },
+        {
+          "state": "walk",
+          "direction": "ne",
+          "frames": [
+            "hero/walk/ne/00",
+            "hero/walk/ne/01",
+            "hero/walk/ne/02",
+            "hero/walk/ne/03",
+            "hero/walk/ne/04",
+            "hero/walk/ne/05"
+          ],
+          "fps": 10,
+          "repeat": -1
+        },
+        {
+          "state": "walk",
+          "direction": "e",
+          "frames": [
+            "hero/walk/e/00",
+            "hero/walk/e/01",
+            "hero/walk/e/02",
+            "hero/walk/e/03",
+            "hero/walk/e/04",
+            "hero/walk/e/05"
+          ],
+          "fps": 10,
+          "repeat": -1
+        },
+        {
+          "state": "walk",
+          "direction": "se",
+          "frames": [
+            "hero/walk/se/00",
+            "hero/walk/se/01",
+            "hero/walk/se/02",
+            "hero/walk/se/03",
+            "hero/walk/se/04",
+            "hero/walk/se/05"
+          ],
+          "fps": 10,
+          "repeat": -1
+        },
+        {
+          "state": "walk",
+          "direction": "s",
+          "frames": [
+            "hero/walk/s/00",
+            "hero/walk/s/01",
+            "hero/walk/s/02",
+            "hero/walk/s/03",
+            "hero/walk/s/04",
+            "hero/walk/s/05"
+          ],
+          "fps": 10,
+          "repeat": -1
+        },
+        {
+          "state": "walk",
+          "direction": "sw",
+          "frames": [
+            "hero/walk/sw/00",
+            "hero/walk/sw/01",
+            "hero/walk/sw/02",
+            "hero/walk/sw/03",
+            "hero/walk/sw/04",
+            "hero/walk/sw/05"
+          ],
+          "fps": 10,
+          "repeat": -1
+        },
+        {
+          "state": "walk",
+          "direction": "w",
+          "frames": [
+            "hero/walk/w/00",
+            "hero/walk/w/01",
+            "hero/walk/w/02",
+            "hero/walk/w/03",
+            "hero/walk/w/04",
+            "hero/walk/w/05"
+          ],
+          "fps": 10,
+          "repeat": -1
+        },
+        {
+          "state": "walk",
+          "direction": "nw",
+          "frames": [
+            "hero/walk/nw/00",
+            "hero/walk/nw/01",
+            "hero/walk/nw/02",
+            "hero/walk/nw/03",
+            "hero/walk/nw/04",
+            "hero/walk/nw/05"
+          ],
+          "fps": 10,
+          "repeat": -1
+        },
+        {
+          "state": "hit",
+          "direction": "n",
+          "frames": [
+            "hero/hit/n/00",
+            "hero/hit/n/01"
+          ],
+          "fps": 12,
+          "repeat": 0
+        },
+        {
+          "state": "hit",
+          "direction": "ne",
+          "frames": [
+            "hero/hit/ne/00",
+            "hero/hit/ne/01"
+          ],
+          "fps": 12,
+          "repeat": 0
+        },
+        {
+          "state": "hit",
+          "direction": "e",
+          "frames": [
+            "hero/hit/e/00",
+            "hero/hit/e/01"
+          ],
+          "fps": 12,
+          "repeat": 0
+        },
+        {
+          "state": "hit",
+          "direction": "se",
+          "frames": [
+            "hero/hit/se/00",
+            "hero/hit/se/01"
+          ],
+          "fps": 12,
+          "repeat": 0
+        },
+        {
+          "state": "hit",
+          "direction": "s",
+          "frames": [
+            "hero/hit/s/00",
+            "hero/hit/s/01"
+          ],
+          "fps": 12,
+          "repeat": 0
+        },
+        {
+          "state": "hit",
+          "direction": "sw",
+          "frames": [
+            "hero/hit/sw/00",
+            "hero/hit/sw/01"
+          ],
+          "fps": 12,
+          "repeat": 0
+        },
+        {
+          "state": "hit",
+          "direction": "w",
+          "frames": [
+            "hero/hit/w/00",
+            "hero/hit/w/01"
+          ],
+          "fps": 12,
+          "repeat": 0
+        },
+        {
+          "state": "hit",
+          "direction": "nw",
+          "frames": [
+            "hero/hit/nw/00",
+            "hero/hit/nw/01"
+          ],
+          "fps": 12,
+          "repeat": 0
+        },
+        {
+          "state": "death",
+          "direction": "n",
+          "frames": [
+            "hero/death/n/00",
+            "hero/death/n/01",
+            "hero/death/n/02",
+            "hero/death/n/03",
+            "hero/death/n/04",
+            "hero/death/n/05"
+          ],
+          "fps": 8,
+          "repeat": 0
+        },
+        {
+          "state": "death",
+          "direction": "ne",
+          "frames": [
+            "hero/death/ne/00",
+            "hero/death/ne/01",
+            "hero/death/ne/02",
+            "hero/death/ne/03",
+            "hero/death/ne/04",
+            "hero/death/ne/05"
+          ],
+          "fps": 8,
+          "repeat": 0
+        },
+        {
+          "state": "death",
+          "direction": "e",
+          "frames": [
+            "hero/death/e/00",
+            "hero/death/e/01",
+            "hero/death/e/02",
+            "hero/death/e/03",
+            "hero/death/e/04",
+            "hero/death/e/05"
+          ],
+          "fps": 8,
+          "repeat": 0
+        },
+        {
+          "state": "death",
+          "direction": "se",
+          "frames": [
+            "hero/death/se/00",
+            "hero/death/se/01",
+            "hero/death/se/02",
+            "hero/death/se/03",
+            "hero/death/se/04",
+            "hero/death/se/05"
+          ],
+          "fps": 8,
+          "repeat": 0
+        },
+        {
+          "state": "death",
+          "direction": "s",
+          "frames": [
+            "hero/death/s/00",
+            "hero/death/s/01",
+            "hero/death/s/02",
+            "hero/death/s/03",
+            "hero/death/s/04",
+            "hero/death/s/05"
+          ],
+          "fps": 8,
+          "repeat": 0
+        },
+        {
+          "state": "death",
+          "direction": "sw",
+          "frames": [
+            "hero/death/sw/00",
+            "hero/death/sw/01",
+            "hero/death/sw/02",
+            "hero/death/sw/03",
+            "hero/death/sw/04",
+            "hero/death/sw/05"
+          ],
+          "fps": 8,
+          "repeat": 0
+        },
+        {
+          "state": "death",
+          "direction": "w",
+          "frames": [
+            "hero/death/w/00",
+            "hero/death/w/01",
+            "hero/death/w/02",
+            "hero/death/w/03",
+            "hero/death/w/04",
+            "hero/death/w/05"
+          ],
+          "fps": 8,
+          "repeat": 0
+        },
+        {
+          "state": "death",
+          "direction": "nw",
+          "frames": [
+            "hero/death/nw/00",
+            "hero/death/nw/01",
+            "hero/death/nw/02",
+            "hero/death/nw/03",
+            "hero/death/nw/04",
+            "hero/death/nw/05"
+          ],
+          "fps": 8,
+          "repeat": 0
+        }
+      ],
+      "directions": [
+        "n",
+        "ne",
+        "e",
+        "se",
+        "s",
+        "sw",
+        "w",
+        "nw"
+      ]
+    },
+    {
+      "id": "root_crawler",
+      "type": "atlas",
+      "status": "approved",
+      "texture": "assets/root_crawler/atlas.png",
+      "atlas": "assets/root_crawler/atlas.json",
+      "frameSize": {
+        "width": 64,
+        "height": 64
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.875
+      },
+      "provenance": "assets-source/approved/root_crawler/metadata.json",
+      "clips": [
+        {
+          "state": "move",
+          "direction": "n",
+          "frames": [
+            "enemy/move/n/00",
+            "enemy/move/n/01",
+            "enemy/move/n/02",
+            "enemy/move/n/03"
+          ],
+          "fps": 8,
+          "repeat": -1
+        },
+        {
+          "state": "move",
+          "direction": "e",
+          "frames": [
+            "enemy/move/e/00",
+            "enemy/move/e/01",
+            "enemy/move/e/02",
+            "enemy/move/e/03"
+          ],
+          "fps": 8,
+          "repeat": -1
+        },
+        {
+          "state": "move",
+          "direction": "s",
+          "frames": [
+            "enemy/move/s/00",
+            "enemy/move/s/01",
+            "enemy/move/s/02",
+            "enemy/move/s/03"
+          ],
+          "fps": 8,
+          "repeat": -1
+        },
+        {
+          "state": "move",
+          "direction": "w",
+          "frames": [
+            "enemy/move/w/00",
+            "enemy/move/w/01",
+            "enemy/move/w/02",
+            "enemy/move/w/03"
+          ],
+          "fps": 8,
+          "repeat": -1
+        },
+        {
+          "state": "hit",
+          "direction": "n",
+          "frames": [
+            "enemy/hit/n/00",
+            "enemy/hit/n/01"
+          ],
+          "fps": 12,
+          "repeat": 0
+        },
+        {
+          "state": "hit",
+          "direction": "e",
+          "frames": [
+            "enemy/hit/e/00",
+            "enemy/hit/e/01"
+          ],
+          "fps": 12,
+          "repeat": 0
+        },
+        {
+          "state": "hit",
+          "direction": "s",
+          "frames": [
+            "enemy/hit/s/00",
+            "enemy/hit/s/01"
+          ],
+          "fps": 12,
+          "repeat": 0
+        },
+        {
+          "state": "hit",
+          "direction": "w",
+          "frames": [
+            "enemy/hit/w/00",
+            "enemy/hit/w/01"
+          ],
+          "fps": 12,
+          "repeat": 0
+        },
+        {
+          "state": "death",
+          "direction": "n",
+          "frames": [
+            "enemy/death/n/00",
+            "enemy/death/n/01",
+            "enemy/death/n/02",
+            "enemy/death/n/03"
+          ],
+          "fps": 8,
+          "repeat": 0
+        },
+        {
+          "state": "death",
+          "direction": "e",
+          "frames": [
+            "enemy/death/e/00",
+            "enemy/death/e/01",
+            "enemy/death/e/02",
+            "enemy/death/e/03"
+          ],
+          "fps": 8,
+          "repeat": 0
+        },
+        {
+          "state": "death",
+          "direction": "s",
+          "frames": [
+            "enemy/death/s/00",
+            "enemy/death/s/01",
+            "enemy/death/s/02",
+            "enemy/death/s/03"
+          ],
+          "fps": 8,
+          "repeat": 0
+        },
+        {
+          "state": "death",
+          "direction": "w",
+          "frames": [
+            "enemy/death/w/00",
+            "enemy/death/w/01",
+            "enemy/death/w/02",
+            "enemy/death/w/03"
+          ],
+          "fps": 8,
+          "repeat": 0
+        }
+      ],
+      "directions": [
+        "n",
+        "e",
+        "s",
+        "w"
+      ]
+    },
+    {
+      "id": "grass",
+      "type": "atlas",
+      "status": "approved",
+      "texture": "assets/grass/atlas.png",
+      "atlas": "assets/grass/atlas.json",
+      "frameSize": {
+        "width": 32,
+        "height": 32
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "provenance": "assets-source/approved/grass/metadata.json",
+      "transitions": {
+        "materials": [
+          "grass",
+          "dirt"
+        ],
+        "maskToFrame": {
+          "0": "grass/mask/000",
+          "1": "grass/mask/001",
+          "4": "grass/mask/004",
+          "5": "grass/mask/005",
+          "7": "grass/mask/007",
+          "16": "grass/mask/016",
+          "17": "grass/mask/017",
+          "20": "grass/mask/020",
+          "21": "grass/mask/021",
+          "23": "grass/mask/023",
+          "28": "grass/mask/028",
+          "29": "grass/mask/029",
+          "31": "grass/mask/031",
+          "64": "grass/mask/064",
+          "65": "grass/mask/065",
+          "68": "grass/mask/068",
+          "69": "grass/mask/069",
+          "71": "grass/mask/071",
+          "80": "grass/mask/080",
+          "81": "grass/mask/081",
+          "84": "grass/mask/084",
+          "85": "grass/mask/085",
+          "87": "grass/mask/087",
+          "92": "grass/mask/092",
+          "93": "grass/mask/093",
+          "95": "grass/mask/095",
+          "112": "grass/mask/112",
+          "113": "grass/mask/113",
+          "116": "grass/mask/116",
+          "117": "grass/mask/117",
+          "119": "grass/mask/119",
+          "124": "grass/mask/124",
+          "125": "grass/mask/125",
+          "127": "grass/mask/127",
+          "193": "grass/mask/193",
+          "197": "grass/mask/197",
+          "199": "grass/mask/199",
+          "209": "grass/mask/209",
+          "213": "grass/mask/213",
+          "215": "grass/mask/215",
+          "221": "grass/mask/221",
+          "223": "grass/mask/223",
+          "241": "grass/mask/241",
+          "245": "grass/mask/245",
+          "247": "grass/mask/247",
+          "253": "grass/mask/253",
+          "255": "grass/mask/255"
+        }
+      }
+    },
+    {
+      "id": "dirt",
+      "type": "atlas",
+      "status": "approved",
+      "texture": "assets/dirt/atlas.png",
+      "atlas": "assets/dirt/atlas.json",
+      "frameSize": {
+        "width": 32,
+        "height": 32
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "provenance": "assets-source/approved/dirt/metadata.json"
+    },
+    {
+      "id": "cobble",
+      "type": "atlas",
+      "status": "approved",
+      "texture": "assets/cobble/atlas.png",
+      "atlas": "assets/cobble/atlas.json",
+      "frameSize": {
+        "width": 32,
+        "height": 32
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "provenance": "assets-source/approved/cobble/metadata.json",
+      "transitions": {
+        "materials": [
+          "dirt",
+          "cobble"
+        ],
+        "maskToFrame": {
+          "0": "cobble/mask/000",
+          "1": "cobble/mask/001",
+          "4": "cobble/mask/004",
+          "5": "cobble/mask/005",
+          "7": "cobble/mask/007",
+          "16": "cobble/mask/016",
+          "17": "cobble/mask/017",
+          "20": "cobble/mask/020",
+          "21": "cobble/mask/021",
+          "23": "cobble/mask/023",
+          "28": "cobble/mask/028",
+          "29": "cobble/mask/029",
+          "31": "cobble/mask/031",
+          "64": "cobble/mask/064",
+          "65": "cobble/mask/065",
+          "68": "cobble/mask/068",
+          "69": "cobble/mask/069",
+          "71": "cobble/mask/071",
+          "80": "cobble/mask/080",
+          "81": "cobble/mask/081",
+          "84": "cobble/mask/084",
+          "85": "cobble/mask/085",
+          "87": "cobble/mask/087",
+          "92": "cobble/mask/092",
+          "93": "cobble/mask/093",
+          "95": "cobble/mask/095",
+          "112": "cobble/mask/112",
+          "113": "cobble/mask/113",
+          "116": "cobble/mask/116",
+          "117": "cobble/mask/117",
+          "119": "cobble/mask/119",
+          "124": "cobble/mask/124",
+          "125": "cobble/mask/125",
+          "127": "cobble/mask/127",
+          "193": "cobble/mask/193",
+          "197": "cobble/mask/197",
+          "199": "cobble/mask/199",
+          "209": "cobble/mask/209",
+          "213": "cobble/mask/213",
+          "215": "cobble/mask/215",
+          "221": "cobble/mask/221",
+          "223": "cobble/mask/223",
+          "241": "cobble/mask/241",
+          "245": "cobble/mask/245",
+          "247": "cobble/mask/247",
+          "253": "cobble/mask/253",
+          "255": "cobble/mask/255"
+        }
+      }
+    },
+    {
+      "id": "environment",
+      "type": "atlas",
+      "status": "approved",
+      "texture": "assets/environment/environment.png",
+      "atlas": "assets/environment/environment.json",
+      "frameSize": {
+        "width": 64,
+        "height": 64
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.875
+      },
+      "clips": [
+        {
+          "state": "plant",
+          "direction": "none",
+          "frames": [
+            "environment/plant/none/00",
+            "environment/plant/none/01",
+            "environment/plant/none/02",
+            "environment/plant/none/03"
+          ],
+          "fps": 4,
+          "repeat": -1
+        },
+        {
+          "state": "water",
+          "direction": "none",
+          "frames": [
+            "environment/water/none/00",
+            "environment/water/none/01",
+            "environment/water/none/02",
+            "environment/water/none/03"
+          ],
+          "fps": 4,
+          "repeat": -1
+        },
+        {
+          "state": "lantern",
+          "direction": "none",
+          "frames": [
+            "environment/lantern/none/00",
+            "environment/lantern/none/01",
+            "environment/lantern/none/02",
+            "environment/lantern/none/03"
+          ],
+          "fps": 4,
+          "repeat": -1
+        },
+        {
+          "state": "roots",
+          "direction": "none",
+          "frames": [
+            "environment/roots/none/00"
+          ],
+          "fps": 4,
+          "repeat": -1
+        },
+        {
+          "state": "bench",
+          "direction": "none",
+          "frames": [
+            "environment/bench/none/00"
+          ],
+          "fps": 4,
+          "repeat": -1
+        },
+        {
+          "state": "glass",
+          "direction": "none",
+          "frames": [
+            "environment/glass/none/00"
+          ],
+          "fps": 4,
+          "repeat": -1
+        }
+      ],
+      "provenance": "assets-source/approved/environment/metadata.json"
+    },
+    {
+      "id": "wax_walker",
+      "type": "atlas",
+      "status": "approved",
+      "texture": "assets/content/wax_walker/wax_walker.png",
+      "atlas": "assets/content/wax_walker/wax_walker.json",
+      "frameSize": {
+        "width": 64,
+        "height": 64
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.875
+      },
+      "clips": [
+        {
+          "state": "move",
+          "direction": "n",
+          "frames": [
+            "wax_walker/move/n/00",
+            "wax_walker/move/n/01",
+            "wax_walker/move/n/02",
+            "wax_walker/move/n/03"
+          ],
+          "fps": 8,
+          "repeat": -1
+        },
+        {
+          "state": "hit",
+          "direction": "n",
+          "frames": [
+            "wax_walker/hit/n/00",
+            "wax_walker/hit/n/01"
+          ],
+          "fps": 12,
+          "repeat": 0
+        },
+        {
+          "state": "death",
+          "direction": "n",
+          "frames": [
+            "wax_walker/death/n/00",
+            "wax_walker/death/n/01",
+            "wax_walker/death/n/02",
+            "wax_walker/death/n/03"
+          ],
+          "fps": 8,
+          "repeat": 0
+        },
+        {
+          "state": "move",
+          "direction": "e",
+          "frames": [
+            "wax_walker/move/e/00",
+            "wax_walker/move/e/01",
+            "wax_walker/move/e/02",
+            "wax_walker/move/e/03"
+          ],
+          "fps": 8,
+          "repeat": -1
+        },
+        {
+          "state": "hit",
+          "direction": "e",
+          "frames": [
+            "wax_walker/hit/e/00",
+            "wax_walker/hit/e/01"
+          ],
+          "fps": 12,
+          "repeat": 0
+        },
+        {
+          "state": "death",
+          "direction": "e",
+          "frames": [
+            "wax_walker/death/e/00",
+            "wax_walker/death/e/01",
+            "wax_walker/death/e/02",
+            "wax_walker/death/e/03"
+          ],
+          "fps": 8,
+          "repeat": 0
+        },
+        {
+          "state": "move",
+          "direction": "s",
+          "frames": [
+            "wax_walker/move/s/00",
+            "wax_walker/move/s/01",
+            "wax_walker/move/s/02",
+            "wax_walker/move/s/03"
+          ],
+          "fps": 8,
+          "repeat": -1
+        },
+        {
+          "state": "hit",
+          "direction": "s",
+          "frames": [
+            "wax_walker/hit/s/00",
+            "wax_walker/hit/s/01"
+          ],
+          "fps": 12,
+          "repeat": 0
+        },
+        {
+          "state": "death",
+          "direction": "s",
+          "frames": [
+            "wax_walker/death/s/00",
+            "wax_walker/death/s/01",
+            "wax_walker/death/s/02",
+            "wax_walker/death/s/03"
+          ],
+          "fps": 8,
+          "repeat": 0
+        },
+        {
+          "state": "move",
+          "direction": "w",
+          "frames": [
+            "wax_walker/move/w/00",
+            "wax_walker/move/w/01",
+            "wax_walker/move/w/02",
+            "wax_walker/move/w/03"
+          ],
+          "fps": 8,
+          "repeat": -1
+        },
+        {
+          "state": "hit",
+          "direction": "w",
+          "frames": [
+            "wax_walker/hit/w/00",
+            "wax_walker/hit/w/01"
+          ],
+          "fps": 12,
+          "repeat": 0
+        },
+        {
+          "state": "death",
+          "direction": "w",
+          "frames": [
+            "wax_walker/death/w/00",
+            "wax_walker/death/w/01",
+            "wax_walker/death/w/02",
+            "wax_walker/death/w/03"
+          ],
+          "fps": 8,
+          "repeat": 0
+        }
+      ],
+      "provenance": "assets-source/approved/wax_walker/metadata.json",
+      "directions": [
+        "n",
+        "e",
+        "s",
+        "w"
+      ]
+    },
+    {
+      "id": "moth_swarm",
+      "type": "atlas",
+      "status": "approved",
+      "texture": "assets/content/moth_swarm/moth_swarm.png",
+      "atlas": "assets/content/moth_swarm/moth_swarm.json",
+      "frameSize": {
+        "width": 64,
+        "height": 64
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.875
+      },
+      "clips": [
+        {
+          "state": "move",
+          "direction": "none",
+          "frames": [
+            "moth_swarm/move/none/00",
+            "moth_swarm/move/none/01",
+            "moth_swarm/move/none/02",
+            "moth_swarm/move/none/03"
+          ],
+          "fps": 8,
+          "repeat": -1
+        },
+        {
+          "state": "hit",
+          "direction": "none",
+          "frames": [
+            "moth_swarm/hit/none/00",
+            "moth_swarm/hit/none/01"
+          ],
+          "fps": 12,
+          "repeat": 0
+        },
+        {
+          "state": "death",
+          "direction": "none",
+          "frames": [
+            "moth_swarm/death/none/00",
+            "moth_swarm/death/none/01",
+            "moth_swarm/death/none/02",
+            "moth_swarm/death/none/03"
+          ],
+          "fps": 8,
+          "repeat": 0
+        }
+      ],
+      "provenance": "assets-source/approved/moth_swarm/metadata.json"
+    },
+    {
+      "id": "thorn_runner",
+      "type": "atlas",
+      "status": "approved",
+      "texture": "assets/content/thorn_runner/thorn_runner.png",
+      "atlas": "assets/content/thorn_runner/thorn_runner.json",
+      "frameSize": {
+        "width": 64,
+        "height": 64
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.875
+      },
+      "clips": [
+        {
+          "state": "move",
+          "direction": "n",
+          "frames": [
+            "thorn_runner/move/n/00",
+            "thorn_runner/move/n/01",
+            "thorn_runner/move/n/02",
+            "thorn_runner/move/n/03"
+          ],
+          "fps": 8,
+          "repeat": -1
+        },
+        {
+          "state": "hit",
+          "direction": "n",
+          "frames": [
+            "thorn_runner/hit/n/00",
+            "thorn_runner/hit/n/01"
+          ],
+          "fps": 12,
+          "repeat": 0
+        },
+        {
+          "state": "death",
+          "direction": "n",
+          "frames": [
+            "thorn_runner/death/n/00",
+            "thorn_runner/death/n/01",
+            "thorn_runner/death/n/02",
+            "thorn_runner/death/n/03"
+          ],
+          "fps": 8,
+          "repeat": 0
+        },
+        {
+          "state": "prepare",
+          "direction": "n",
+          "frames": [
+            "thorn_runner/prepare/n/00",
+            "thorn_runner/prepare/n/01",
+            "thorn_runner/prepare/n/02",
+            "thorn_runner/prepare/n/03"
+          ],
+          "fps": 5,
+          "repeat": -1
+        },
+        {
+          "state": "attack",
+          "direction": "n",
+          "frames": [
+            "thorn_runner/attack/n/00",
+            "thorn_runner/attack/n/01",
+            "thorn_runner/attack/n/02",
+            "thorn_runner/attack/n/03"
+          ],
+          "fps": 10,
+          "repeat": -1
+        },
+        {
+          "state": "move",
+          "direction": "e",
+          "frames": [
+            "thorn_runner/move/e/00",
+            "thorn_runner/move/e/01",
+            "thorn_runner/move/e/02",
+            "thorn_runner/move/e/03"
+          ],
+          "fps": 8,
+          "repeat": -1
+        },
+        {
+          "state": "hit",
+          "direction": "e",
+          "frames": [
+            "thorn_runner/hit/e/00",
+            "thorn_runner/hit/e/01"
+          ],
+          "fps": 12,
+          "repeat": 0
+        },
+        {
+          "state": "death",
+          "direction": "e",
+          "frames": [
+            "thorn_runner/death/e/00",
+            "thorn_runner/death/e/01",
+            "thorn_runner/death/e/02",
+            "thorn_runner/death/e/03"
+          ],
+          "fps": 8,
+          "repeat": 0
+        },
+        {
+          "state": "prepare",
+          "direction": "e",
+          "frames": [
+            "thorn_runner/prepare/e/00",
+            "thorn_runner/prepare/e/01",
+            "thorn_runner/prepare/e/02",
+            "thorn_runner/prepare/e/03"
+          ],
+          "fps": 5,
+          "repeat": -1
+        },
+        {
+          "state": "attack",
+          "direction": "e",
+          "frames": [
+            "thorn_runner/attack/e/00",
+            "thorn_runner/attack/e/01",
+            "thorn_runner/attack/e/02",
+            "thorn_runner/attack/e/03"
+          ],
+          "fps": 10,
+          "repeat": -1
+        },
+        {
+          "state": "move",
+          "direction": "s",
+          "frames": [
+            "thorn_runner/move/s/00",
+            "thorn_runner/move/s/01",
+            "thorn_runner/move/s/02",
+            "thorn_runner/move/s/03"
+          ],
+          "fps": 8,
+          "repeat": -1
+        },
+        {
+          "state": "hit",
+          "direction": "s",
+          "frames": [
+            "thorn_runner/hit/s/00",
+            "thorn_runner/hit/s/01"
+          ],
+          "fps": 12,
+          "repeat": 0
+        },
+        {
+          "state": "death",
+          "direction": "s",
+          "frames": [
+            "thorn_runner/death/s/00",
+            "thorn_runner/death/s/01",
+            "thorn_runner/death/s/02",
+            "thorn_runner/death/s/03"
+          ],
+          "fps": 8,
+          "repeat": 0
+        },
+        {
+          "state": "prepare",
+          "direction": "s",
+          "frames": [
+            "thorn_runner/prepare/s/00",
+            "thorn_runner/prepare/s/01",
+            "thorn_runner/prepare/s/02",
+            "thorn_runner/prepare/s/03"
+          ],
+          "fps": 5,
+          "repeat": -1
+        },
+        {
+          "state": "attack",
+          "direction": "s",
+          "frames": [
+            "thorn_runner/attack/s/00",
+            "thorn_runner/attack/s/01",
+            "thorn_runner/attack/s/02",
+            "thorn_runner/attack/s/03"
+          ],
+          "fps": 10,
+          "repeat": -1
+        },
+        {
+          "state": "move",
+          "direction": "w",
+          "frames": [
+            "thorn_runner/move/w/00",
+            "thorn_runner/move/w/01",
+            "thorn_runner/move/w/02",
+            "thorn_runner/move/w/03"
+          ],
+          "fps": 8,
+          "repeat": -1
+        },
+        {
+          "state": "hit",
+          "direction": "w",
+          "frames": [
+            "thorn_runner/hit/w/00",
+            "thorn_runner/hit/w/01"
+          ],
+          "fps": 12,
+          "repeat": 0
+        },
+        {
+          "state": "death",
+          "direction": "w",
+          "frames": [
+            "thorn_runner/death/w/00",
+            "thorn_runner/death/w/01",
+            "thorn_runner/death/w/02",
+            "thorn_runner/death/w/03"
+          ],
+          "fps": 8,
+          "repeat": 0
+        },
+        {
+          "state": "prepare",
+          "direction": "w",
+          "frames": [
+            "thorn_runner/prepare/w/00",
+            "thorn_runner/prepare/w/01",
+            "thorn_runner/prepare/w/02",
+            "thorn_runner/prepare/w/03"
+          ],
+          "fps": 5,
+          "repeat": -1
+        },
+        {
+          "state": "attack",
+          "direction": "w",
+          "frames": [
+            "thorn_runner/attack/w/00",
+            "thorn_runner/attack/w/01",
+            "thorn_runner/attack/w/02",
+            "thorn_runner/attack/w/03"
+          ],
+          "fps": 10,
+          "repeat": -1
+        }
+      ],
+      "provenance": "assets-source/approved/thorn_runner/metadata.json",
+      "directions": [
+        "n",
+        "e",
+        "s",
+        "w"
+      ]
+    },
+    {
+      "id": "bell_spitter",
+      "type": "atlas",
+      "status": "approved",
+      "texture": "assets/content/bell_spitter/bell_spitter.png",
+      "atlas": "assets/content/bell_spitter/bell_spitter.json",
+      "frameSize": {
+        "width": 64,
+        "height": 64
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.875
+      },
+      "clips": [
+        {
+          "state": "move",
+          "direction": "n",
+          "frames": [
+            "bell_spitter/move/n/00",
+            "bell_spitter/move/n/01",
+            "bell_spitter/move/n/02",
+            "bell_spitter/move/n/03"
+          ],
+          "fps": 8,
+          "repeat": -1
+        },
+        {
+          "state": "hit",
+          "direction": "n",
+          "frames": [
+            "bell_spitter/hit/n/00",
+            "bell_spitter/hit/n/01"
+          ],
+          "fps": 12,
+          "repeat": 0
+        },
+        {
+          "state": "death",
+          "direction": "n",
+          "frames": [
+            "bell_spitter/death/n/00",
+            "bell_spitter/death/n/01",
+            "bell_spitter/death/n/02",
+            "bell_spitter/death/n/03"
+          ],
+          "fps": 8,
+          "repeat": 0
+        },
+        {
+          "state": "prepare",
+          "direction": "n",
+          "frames": [
+            "bell_spitter/prepare/n/00",
+            "bell_spitter/prepare/n/01",
+            "bell_spitter/prepare/n/02",
+            "bell_spitter/prepare/n/03"
+          ],
+          "fps": 5,
+          "repeat": -1
+        },
+        {
+          "state": "attack",
+          "direction": "n",
+          "frames": [
+            "bell_spitter/attack/n/00",
+            "bell_spitter/attack/n/01",
+            "bell_spitter/attack/n/02",
+            "bell_spitter/attack/n/03"
+          ],
+          "fps": 10,
+          "repeat": -1
+        },
+        {
+          "state": "move",
+          "direction": "e",
+          "frames": [
+            "bell_spitter/move/e/00",
+            "bell_spitter/move/e/01",
+            "bell_spitter/move/e/02",
+            "bell_spitter/move/e/03"
+          ],
+          "fps": 8,
+          "repeat": -1
+        },
+        {
+          "state": "hit",
+          "direction": "e",
+          "frames": [
+            "bell_spitter/hit/e/00",
+            "bell_spitter/hit/e/01"
+          ],
+          "fps": 12,
+          "repeat": 0
+        },
+        {
+          "state": "death",
+          "direction": "e",
+          "frames": [
+            "bell_spitter/death/e/00",
+            "bell_spitter/death/e/01",
+            "bell_spitter/death/e/02",
+            "bell_spitter/death/e/03"
+          ],
+          "fps": 8,
+          "repeat": 0
+        },
+        {
+          "state": "prepare",
+          "direction": "e",
+          "frames": [
+            "bell_spitter/prepare/e/00",
+            "bell_spitter/prepare/e/01",
+            "bell_spitter/prepare/e/02",
+            "bell_spitter/prepare/e/03"
+          ],
+          "fps": 5,
+          "repeat": -1
+        },
+        {
+          "state": "attack",
+          "direction": "e",
+          "frames": [
+            "bell_spitter/attack/e/00",
+            "bell_spitter/attack/e/01",
+            "bell_spitter/attack/e/02",
+            "bell_spitter/attack/e/03"
+          ],
+          "fps": 10,
+          "repeat": -1
+        },
+        {
+          "state": "move",
+          "direction": "s",
+          "frames": [
+            "bell_spitter/move/s/00",
+            "bell_spitter/move/s/01",
+            "bell_spitter/move/s/02",
+            "bell_spitter/move/s/03"
+          ],
+          "fps": 8,
+          "repeat": -1
+        },
+        {
+          "state": "hit",
+          "direction": "s",
+          "frames": [
+            "bell_spitter/hit/s/00",
+            "bell_spitter/hit/s/01"
+          ],
+          "fps": 12,
+          "repeat": 0
+        },
+        {
+          "state": "death",
+          "direction": "s",
+          "frames": [
+            "bell_spitter/death/s/00",
+            "bell_spitter/death/s/01",
+            "bell_spitter/death/s/02",
+            "bell_spitter/death/s/03"
+          ],
+          "fps": 8,
+          "repeat": 0
+        },
+        {
+          "state": "prepare",
+          "direction": "s",
+          "frames": [
+            "bell_spitter/prepare/s/00",
+            "bell_spitter/prepare/s/01",
+            "bell_spitter/prepare/s/02",
+            "bell_spitter/prepare/s/03"
+          ],
+          "fps": 5,
+          "repeat": -1
+        },
+        {
+          "state": "attack",
+          "direction": "s",
+          "frames": [
+            "bell_spitter/attack/s/00",
+            "bell_spitter/attack/s/01",
+            "bell_spitter/attack/s/02",
+            "bell_spitter/attack/s/03"
+          ],
+          "fps": 10,
+          "repeat": -1
+        },
+        {
+          "state": "move",
+          "direction": "w",
+          "frames": [
+            "bell_spitter/move/w/00",
+            "bell_spitter/move/w/01",
+            "bell_spitter/move/w/02",
+            "bell_spitter/move/w/03"
+          ],
+          "fps": 8,
+          "repeat": -1
+        },
+        {
+          "state": "hit",
+          "direction": "w",
+          "frames": [
+            "bell_spitter/hit/w/00",
+            "bell_spitter/hit/w/01"
+          ],
+          "fps": 12,
+          "repeat": 0
+        },
+        {
+          "state": "death",
+          "direction": "w",
+          "frames": [
+            "bell_spitter/death/w/00",
+            "bell_spitter/death/w/01",
+            "bell_spitter/death/w/02",
+            "bell_spitter/death/w/03"
+          ],
+          "fps": 8,
+          "repeat": 0
+        },
+        {
+          "state": "prepare",
+          "direction": "w",
+          "frames": [
+            "bell_spitter/prepare/w/00",
+            "bell_spitter/prepare/w/01",
+            "bell_spitter/prepare/w/02",
+            "bell_spitter/prepare/w/03"
+          ],
+          "fps": 5,
+          "repeat": -1
+        },
+        {
+          "state": "attack",
+          "direction": "w",
+          "frames": [
+            "bell_spitter/attack/w/00",
+            "bell_spitter/attack/w/01",
+            "bell_spitter/attack/w/02",
+            "bell_spitter/attack/w/03"
+          ],
+          "fps": 10,
+          "repeat": -1
+        }
+      ],
+      "provenance": "assets-source/approved/bell_spitter/metadata.json",
+      "directions": [
+        "n",
+        "e",
+        "s",
+        "w"
+      ]
+    },
+    {
+      "id": "lantern_thief",
+      "type": "atlas",
+      "status": "approved",
+      "texture": "assets/content/lantern_thief/lantern_thief.png",
+      "atlas": "assets/content/lantern_thief/lantern_thief.json",
+      "frameSize": {
+        "width": 64,
+        "height": 64
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.875
+      },
+      "clips": [
+        {
+          "state": "move",
+          "direction": "n",
+          "frames": [
+            "lantern_thief/move/n/00",
+            "lantern_thief/move/n/01",
+            "lantern_thief/move/n/02",
+            "lantern_thief/move/n/03"
+          ],
+          "fps": 8,
+          "repeat": -1
+        },
+        {
+          "state": "hit",
+          "direction": "n",
+          "frames": [
+            "lantern_thief/hit/n/00",
+            "lantern_thief/hit/n/01"
+          ],
+          "fps": 12,
+          "repeat": 0
+        },
+        {
+          "state": "death",
+          "direction": "n",
+          "frames": [
+            "lantern_thief/death/n/00",
+            "lantern_thief/death/n/01",
+            "lantern_thief/death/n/02",
+            "lantern_thief/death/n/03"
+          ],
+          "fps": 8,
+          "repeat": 0
+        },
+        {
+          "state": "prepare",
+          "direction": "n",
+          "frames": [
+            "lantern_thief/prepare/n/00",
+            "lantern_thief/prepare/n/01",
+            "lantern_thief/prepare/n/02",
+            "lantern_thief/prepare/n/03"
+          ],
+          "fps": 5,
+          "repeat": -1
+        },
+        {
+          "state": "attack",
+          "direction": "n",
+          "frames": [
+            "lantern_thief/attack/n/00",
+            "lantern_thief/attack/n/01",
+            "lantern_thief/attack/n/02",
+            "lantern_thief/attack/n/03"
+          ],
+          "fps": 10,
+          "repeat": -1
+        },
+        {
+          "state": "move",
+          "direction": "e",
+          "frames": [
+            "lantern_thief/move/e/00",
+            "lantern_thief/move/e/01",
+            "lantern_thief/move/e/02",
+            "lantern_thief/move/e/03"
+          ],
+          "fps": 8,
+          "repeat": -1
+        },
+        {
+          "state": "hit",
+          "direction": "e",
+          "frames": [
+            "lantern_thief/hit/e/00",
+            "lantern_thief/hit/e/01"
+          ],
+          "fps": 12,
+          "repeat": 0
+        },
+        {
+          "state": "death",
+          "direction": "e",
+          "frames": [
+            "lantern_thief/death/e/00",
+            "lantern_thief/death/e/01",
+            "lantern_thief/death/e/02",
+            "lantern_thief/death/e/03"
+          ],
+          "fps": 8,
+          "repeat": 0
+        },
+        {
+          "state": "prepare",
+          "direction": "e",
+          "frames": [
+            "lantern_thief/prepare/e/00",
+            "lantern_thief/prepare/e/01",
+            "lantern_thief/prepare/e/02",
+            "lantern_thief/prepare/e/03"
+          ],
+          "fps": 5,
+          "repeat": -1
+        },
+        {
+          "state": "attack",
+          "direction": "e",
+          "frames": [
+            "lantern_thief/attack/e/00",
+            "lantern_thief/attack/e/01",
+            "lantern_thief/attack/e/02",
+            "lantern_thief/attack/e/03"
+          ],
+          "fps": 10,
+          "repeat": -1
+        },
+        {
+          "state": "move",
+          "direction": "s",
+          "frames": [
+            "lantern_thief/move/s/00",
+            "lantern_thief/move/s/01",
+            "lantern_thief/move/s/02",
+            "lantern_thief/move/s/03"
+          ],
+          "fps": 8,
+          "repeat": -1
+        },
+        {
+          "state": "hit",
+          "direction": "s",
+          "frames": [
+            "lantern_thief/hit/s/00",
+            "lantern_thief/hit/s/01"
+          ],
+          "fps": 12,
+          "repeat": 0
+        },
+        {
+          "state": "death",
+          "direction": "s",
+          "frames": [
+            "lantern_thief/death/s/00",
+            "lantern_thief/death/s/01",
+            "lantern_thief/death/s/02",
+            "lantern_thief/death/s/03"
+          ],
+          "fps": 8,
+          "repeat": 0
+        },
+        {
+          "state": "prepare",
+          "direction": "s",
+          "frames": [
+            "lantern_thief/prepare/s/00",
+            "lantern_thief/prepare/s/01",
+            "lantern_thief/prepare/s/02",
+            "lantern_thief/prepare/s/03"
+          ],
+          "fps": 5,
+          "repeat": -1
+        },
+        {
+          "state": "attack",
+          "direction": "s",
+          "frames": [
+            "lantern_thief/attack/s/00",
+            "lantern_thief/attack/s/01",
+            "lantern_thief/attack/s/02",
+            "lantern_thief/attack/s/03"
+          ],
+          "fps": 10,
+          "repeat": -1
+        },
+        {
+          "state": "move",
+          "direction": "w",
+          "frames": [
+            "lantern_thief/move/w/00",
+            "lantern_thief/move/w/01",
+            "lantern_thief/move/w/02",
+            "lantern_thief/move/w/03"
+          ],
+          "fps": 8,
+          "repeat": -1
+        },
+        {
+          "state": "hit",
+          "direction": "w",
+          "frames": [
+            "lantern_thief/hit/w/00",
+            "lantern_thief/hit/w/01"
+          ],
+          "fps": 12,
+          "repeat": 0
+        },
+        {
+          "state": "death",
+          "direction": "w",
+          "frames": [
+            "lantern_thief/death/w/00",
+            "lantern_thief/death/w/01",
+            "lantern_thief/death/w/02",
+            "lantern_thief/death/w/03"
+          ],
+          "fps": 8,
+          "repeat": 0
+        },
+        {
+          "state": "prepare",
+          "direction": "w",
+          "frames": [
+            "lantern_thief/prepare/w/00",
+            "lantern_thief/prepare/w/01",
+            "lantern_thief/prepare/w/02",
+            "lantern_thief/prepare/w/03"
+          ],
+          "fps": 5,
+          "repeat": -1
+        },
+        {
+          "state": "attack",
+          "direction": "w",
+          "frames": [
+            "lantern_thief/attack/w/00",
+            "lantern_thief/attack/w/01",
+            "lantern_thief/attack/w/02",
+            "lantern_thief/attack/w/03"
+          ],
+          "fps": 10,
+          "repeat": -1
+        }
+      ],
+      "provenance": "assets-source/approved/lantern_thief/metadata.json",
+      "directions": [
+        "n",
+        "e",
+        "s",
+        "w"
+      ]
+    },
+    {
+      "id": "content_icons",
+      "type": "atlas",
+      "status": "approved",
+      "texture": "assets/content/content_icons/content_icons.png",
+      "atlas": "assets/content/content_icons/content_icons.json",
+      "frameSize": {
+        "width": 32,
+        "height": 32
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "clips": [],
+      "provenance": "assets-source/approved/content_icons/metadata.json"
+    },
+    {
+      "id": "content_fx",
+      "type": "atlas",
+      "status": "approved",
+      "texture": "assets/content/content_fx/content_fx.png",
+      "atlas": "assets/content/content_fx/content_fx.json",
+      "frameSize": {
+        "width": 32,
+        "height": 32
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "clips": [
+        {
+          "state": "needle_move",
+          "direction": "none",
+          "frames": [
+            "fx/needle/move/00",
+            "fx/needle/move/01",
+            "fx/needle/move/02",
+            "fx/needle/move/03"
+          ],
+          "fps": 12,
+          "repeat": -1
+        },
+        {
+          "state": "needle_spawn",
+          "direction": "none",
+          "frames": [
+            "fx/needle/spawn/00",
+            "fx/needle/spawn/01",
+            "fx/needle/spawn/02"
+          ],
+          "fps": 12,
+          "repeat": 0
+        },
+        {
+          "state": "needle_hit",
+          "direction": "none",
+          "frames": [
+            "fx/needle/hit/00",
+            "fx/needle/hit/01",
+            "fx/needle/hit/02"
+          ],
+          "fps": 12,
+          "repeat": 0
+        },
+        {
+          "state": "moth_move",
+          "direction": "none",
+          "frames": [
+            "fx/moth/move/00",
+            "fx/moth/move/01",
+            "fx/moth/move/02",
+            "fx/moth/move/03"
+          ],
+          "fps": 12,
+          "repeat": -1
+        },
+        {
+          "state": "moth_spawn",
+          "direction": "none",
+          "frames": [
+            "fx/moth/spawn/00",
+            "fx/moth/spawn/01",
+            "fx/moth/spawn/02"
+          ],
+          "fps": 12,
+          "repeat": 0
+        },
+        {
+          "state": "moth_hit",
+          "direction": "none",
+          "frames": [
+            "fx/moth/hit/00",
+            "fx/moth/hit/01",
+            "fx/moth/hit/02"
+          ],
+          "fps": 12,
+          "repeat": 0
+        },
+        {
+          "state": "bell_move",
+          "direction": "none",
+          "frames": [
+            "fx/bell/move/00",
+            "fx/bell/move/01",
+            "fx/bell/move/02",
+            "fx/bell/move/03"
+          ],
+          "fps": 12,
+          "repeat": -1
+        },
+        {
+          "state": "bell_spawn",
+          "direction": "none",
+          "frames": [
+            "fx/bell/spawn/00",
+            "fx/bell/spawn/01",
+            "fx/bell/spawn/02"
+          ],
+          "fps": 12,
+          "repeat": 0
+        },
+        {
+          "state": "bell_hit",
+          "direction": "none",
+          "frames": [
+            "fx/bell/hit/00",
+            "fx/bell/hit/01",
+            "fx/bell/hit/02"
+          ],
+          "fps": 12,
+          "repeat": 0
+        },
+        {
+          "state": "enemy_move",
+          "direction": "none",
+          "frames": [
+            "fx/enemy/move/00",
+            "fx/enemy/move/01",
+            "fx/enemy/move/02",
+            "fx/enemy/move/03"
+          ],
+          "fps": 12,
+          "repeat": -1
+        },
+        {
+          "state": "enemy_spawn",
+          "direction": "none",
+          "frames": [
+            "fx/enemy/spawn/00",
+            "fx/enemy/spawn/01",
+            "fx/enemy/spawn/02"
+          ],
+          "fps": 12,
+          "repeat": 0
+        },
+        {
+          "state": "enemy_hit",
+          "direction": "none",
+          "frames": [
+            "fx/enemy/hit/00",
+            "fx/enemy/hit/01",
+            "fx/enemy/hit/02"
+          ],
+          "fps": 12,
+          "repeat": 0
+        },
+        {
+          "state": "wax_move",
+          "direction": "none",
+          "frames": [
+            "fx/wax/move/00",
+            "fx/wax/move/01",
+            "fx/wax/move/02",
+            "fx/wax/move/03"
+          ],
+          "fps": 12,
+          "repeat": -1
+        },
+        {
+          "state": "wax_spawn",
+          "direction": "none",
+          "frames": [
+            "fx/wax/spawn/00",
+            "fx/wax/spawn/01",
+            "fx/wax/spawn/02"
+          ],
+          "fps": 12,
+          "repeat": 0
+        },
+        {
+          "state": "wax_hit",
+          "direction": "none",
+          "frames": [
+            "fx/wax/hit/00",
+            "fx/wax/hit/01",
+            "fx/wax/hit/02"
+          ],
+          "fps": 12,
+          "repeat": 0
+        },
+        {
+          "state": "magnet_move",
+          "direction": "none",
+          "frames": [
+            "fx/magnet/move/00",
+            "fx/magnet/move/01",
+            "fx/magnet/move/02",
+            "fx/magnet/move/03"
+          ],
+          "fps": 12,
+          "repeat": -1
+        },
+        {
+          "state": "magnet_spawn",
+          "direction": "none",
+          "frames": [
+            "fx/magnet/spawn/00",
+            "fx/magnet/spawn/01",
+            "fx/magnet/spawn/02"
+          ],
+          "fps": 12,
+          "repeat": 0
+        },
+        {
+          "state": "magnet_hit",
+          "direction": "none",
+          "frames": [
+            "fx/magnet/hit/00",
+            "fx/magnet/hit/01",
+            "fx/magnet/hit/02"
+          ],
+          "fps": 12,
+          "repeat": 0
+        }
+      ],
+      "provenance": "assets-source/approved/content_fx/metadata.json"
+    },
+    {
+      "id": "greenhouse_heart",
+      "type": "atlas",
+      "status": "approved",
+      "texture": "assets/boss/greenhouse_heart.png",
+      "atlas": "assets/boss/greenhouse_heart.json",
+      "frameSize": {
+        "width": 128,
+        "height": 128
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.875
+      },
+      "clips": [
+        {
+          "state": "idle",
+          "direction": "none",
+          "frames": [
+            "greenhouse_heart/idle/none/00",
+            "greenhouse_heart/idle/none/01",
+            "greenhouse_heart/idle/none/02",
+            "greenhouse_heart/idle/none/03"
+          ],
+          "fps": 6,
+          "repeat": -1
+        },
+        {
+          "state": "move",
+          "direction": "none",
+          "frames": [
+            "greenhouse_heart/move/none/00",
+            "greenhouse_heart/move/none/01",
+            "greenhouse_heart/move/none/02",
+            "greenhouse_heart/move/none/03"
+          ],
+          "fps": 8,
+          "repeat": -1
+        },
+        {
+          "state": "prepare_thorns",
+          "direction": "none",
+          "frames": [
+            "greenhouse_heart/prepare_thorns/none/00",
+            "greenhouse_heart/prepare_thorns/none/01",
+            "greenhouse_heart/prepare_thorns/none/02",
+            "greenhouse_heart/prepare_thorns/none/03"
+          ],
+          "fps": 3.3333333333333335,
+          "repeat": 0
+        },
+        {
+          "state": "attack_thorns",
+          "direction": "none",
+          "frames": [
+            "greenhouse_heart/attack_thorns/none/00",
+            "greenhouse_heart/attack_thorns/none/01",
+            "greenhouse_heart/attack_thorns/none/02",
+            "greenhouse_heart/attack_thorns/none/03"
+          ],
+          "fps": 8,
+          "repeat": 0
+        },
+        {
+          "state": "prepare_summon",
+          "direction": "none",
+          "frames": [
+            "greenhouse_heart/prepare_summon/none/00",
+            "greenhouse_heart/prepare_summon/none/01",
+            "greenhouse_heart/prepare_summon/none/02",
+            "greenhouse_heart/prepare_summon/none/03"
+          ],
+          "fps": 2.857142857142857,
+          "repeat": 0
+        },
+        {
+          "state": "attack_summon",
+          "direction": "none",
+          "frames": [
+            "greenhouse_heart/attack_summon/none/00",
+            "greenhouse_heart/attack_summon/none/01",
+            "greenhouse_heart/attack_summon/none/02",
+            "greenhouse_heart/attack_summon/none/03"
+          ],
+          "fps": 8,
+          "repeat": 0
+        },
+        {
+          "state": "hit",
+          "direction": "none",
+          "frames": [
+            "greenhouse_heart/hit/none/00",
+            "greenhouse_heart/hit/none/01"
+          ],
+          "fps": 12,
+          "repeat": 0
+        },
+        {
+          "state": "death",
+          "direction": "none",
+          "frames": [
+            "greenhouse_heart/death/none/00",
+            "greenhouse_heart/death/none/01",
+            "greenhouse_heart/death/none/02",
+            "greenhouse_heart/death/none/03",
+            "greenhouse_heart/death/none/04",
+            "greenhouse_heart/death/none/05",
+            "greenhouse_heart/death/none/06",
+            "greenhouse_heart/death/none/07"
+          ],
+          "fps": 8,
+          "repeat": 0
+        }
+      ],
+      "provenance": "assets-source/approved/greenhouse_heart/metadata.json"
+    }
+  ]
+}

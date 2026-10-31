@@ -1,0 +1,60 @@
+{
+  "status": "approved",
+  "reviewer": "Codex visual review; user acceptance not claimed",
+  "reviewedAt": "2026-10-14T04:05:25.396Z",
+  "assets": {
+    "wax_walker": {
+      "recipeSha256": "6e0443a763272c6a53965b3bf425a5c9560150562853338e39492d55edddc922",
+      "textureSha256": "306bf17dbb83fec6ca842f441d5f2527333952fc38cd025774e9ffc6f72c838a",
+      "atlasSha256": "2eac8adfa2b365070eb418849596a5277b72259d816c1ed56e0b31a1af6186ce"
+    },
+    "moth_swarm": {
+      "recipeSha256": "6e0443a763272c6a53965b3bf425a5c9560150562853338e39492d55edddc922",
+      "textureSha256": "398d152559abcb40b99e9dfcb0eb48186fbfc7f3b39ba1423e7b84a51ba5c2c3",
+      "atlasSha256": "f7e953b54398daa472d6791f0862bc5ba0cd75c5a174c5fd3631c4e3f446d61e"
+    },
+    "thorn_runner": {
+      "recipeSha256": "6e0443a763272c6a53965b3bf425a5c9560150562853338e39492d55edddc922",
+      "textureSha256": "db947fdb914bafc33e39dd7a56aebb7e85163bb0b402a2f49b7c004dc4f0fb1a",
+      "atlasSha256": "63e8723f764fb34c3e85e8573005771496d97723194d1dea5ebdd8868329521a"
+    },
+    "bell_spitter": {
+      "recipeSha256": "6e0443a763272c6a53965b3bf425a5c9560150562853338e39492d55edddc922",
+      "textureSha256": "aa212bb3a44fb3da0b3a01b9445046cbe010f2af89ff297e3d389f05e916ab8d",
+      "atlasSha256": "79b484a251db049738eb6233a38b738207504910ec23b2c85c87bc22b24e9908"
+    },
+    "lantern_thief": {
+      "recipeSha256": "6e0443a763272c6a53965b3bf425a5c9560150562853338e39492d55edddc922",
+      "textureSha256": "4d1fe37b031bc5b6454676937468fef48314dad8918822d169fd9c5a5b1e103b",
+      "atlasSha256": "5ca743116213ef644104d6a1258cdc720b9d3a9e50cb013e20fdfc00ba40b877"
+    },
+    "content_icons": {
+      "recipeSha256": "6e0443a763272c6a53965b3bf425a5c9560150562853338e39492d55edddc922",
+      "textureSha256": "c2f97d01af379794fc1639edc7b60f9860407ba86fc6ac6a84bb1a54d05cfad2",
+      "atlasSha256": "cb32d8fc5d0fc71f666b3d5d0a7e15c5d19395ed70dbc9f03bbec31bba85050b"
+    },
+    "content_fx": {
+      "recipeSha256": "6e0443a763272c6a53965b3bf425a5c9560150562853338e39492d55edddc922",
+      "textureSha256": "9e111ddfac2b4545501840ad4d162f2aaf16523174be9b3668a1cd58a1efdc8b",
+      "atlasSha256": "80a24efdd297d6292b30bbad70eb893b7d5e7f84c46d49b67342702cc838ce66"
+    }
+  },
+  "evidence": [
+    "docs/evidence/stage-4/enemy-contact-sheet.png",
+    "docs/evidence/stage-4/enemy-contact-sheet-2x.png",
+    "docs/evidence/stage-4/thorn_runner-prepare.png",
+    "docs/evidence/stage-4/bell_spitter-prepare.png",
+    "docs/evidence/stage-4/lantern_thief-prepare.png",
+    "docs/evidence/stage-4/build-close-early.png",
+    "docs/evidence/stage-4/build-ranged-early.png",
+    "docs/evidence/stage-4/build-mobile-early.png",
+    "docs/evidence/stage-4/content-1x.png",
+    "docs/evidence/stage-4/enemies-check.json",
+    "docs/evidence/stage-4/builds-check.json",
+    "docs/evidence/stage-4/video-check.json",
+    "docs/evidence/stage-4/final-effects-2x.webm",
+    "docs/evidence/stage-4/attacks-2x.webm",
+    "docs/evidence/stage-4/builds-2x.webm"
+  ],
+  "notes": "Viewed fixed-canvas movement, hit/death and distinct silhouettes at 1x/2x. Cardinal views are separately constructed; swarm has recorded radial symmetry and independent wing poses. Telegraphs and three builds verified in Phaser. Pixelmon studies required full redraw; the item study is a material reference, all 13 icon shapes are authored. No generic image rotation/scaling substituted for living animation."
+}

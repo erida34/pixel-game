@@ -1,0 +1,72 @@
+{
+  "assetId": "grass",
+  "sourceKind": "Pixelmon base study + scripted pixel redraw",
+  "prompt": "seamless top-down ground texture, dark teal moss with sparse short grass, abandoned nocturnal garden, subdued contrast, flat even lighting, crisp pixel art, no objects, no perspective, no cast shadows",
+  "negativePrompt": null,
+  "seed": 2101,
+  "arguments": [
+    "seamless top-down ground texture, dark teal moss with sparse short grass, abandoned nocturnal garden, subdued contrast, flat even lighting, crisp pixel art, no objects, no perspective, no cast shadows",
+    "--size",
+    "32",
+    "--palette",
+    "ENDESGA-32",
+    "--seed",
+    "2101",
+    "--no-open",
+    "--show-prompt",
+    "--name",
+    "grass",
+    "--output-to",
+    "assets-source/drafts/grass",
+    "--tile",
+    "--dither-amount",
+    "0"
+  ],
+  "toolCommit": "355bd0b",
+  "toolVersion": "1.9.0",
+  "modelIdentifiers": [
+    "sd_xl_base_1.0.safetensors",
+    "pixel-art-xl.safetensors"
+  ],
+  "generatedAt": "2026-10-13T17:51:11+00:00",
+  "sourceFiles": [
+    "assets-source/approved/grass/pixelmon-base.png"
+  ],
+  "edits": [
+    {
+      "author": "Codex",
+      "tool": "tools/build-art.py / Pillow 12.3.0",
+      "operations": "Full pixel redraw from the Pixelmon base studies, not generated animation: separate directional constructions; articulated legs, arms, coat and roots; hand-side projection; fixed anchor; death silhouettes. Full ground redraw with sparse clusters, rounded wrapped cobbles, common borders, 3 variants and 47 binary-alpha masks."
+    }
+  ],
+  "licenseNotes": "Pixelmon MIT; SDXL CreativeML Open RAIL++-M; Pixel Art XL CreativeML Open RAIL-M. Local model SHA256 recorded; upstream identity inferred from filename, not verified against an upstream digest. Model weights are not distributed.",
+  "reviewStatus": "approved",
+  "evidence": [
+    "docs/evidence/stage-1/transitions-1x.png",
+    "docs/evidence/stage-1/transitions-2x.png",
+    "docs/evidence/stage-1/junctions-2x.png",
+    "docs/evidence/stage-1/field-2x.png"
+  ],
+  "modelHashes": {
+    "sd_xl_base_1.0.safetensors": "31e35c80fc4829d14f90153f4c74cd59c90b779f6afe05a74cd6120b893f7e5b",
+    "pixel-art-xl.safetensors": "4234637cb80c998f41e348e6a6cb6bc20d8d038b2b0f256b6129b3b5e353eef7"
+  },
+  "productionParameters": {
+    "size": 32,
+    "palette": "ENDESGA-32",
+    "steps": 25,
+    "cfg": 7,
+    "loraStrength": 1,
+    "ditherAmount": 0,
+    "fast": false,
+    "generationResolution": 1024,
+    "sampler": "euler",
+    "scheduler": "normal"
+  },
+  "licenseSources": [
+    "https://github.com/grymmjack/pixelmon/blob/main/LICENSE",
+    "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0",
+    "https://huggingface.co/nerijs/pixel-art-xl"
+  ],
+  "reviewRef": "docs/evidence/stage-1/art-review.json"
+}

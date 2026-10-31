@@ -1,0 +1,165 @@
+{
+  "files": [
+    {
+      "path": "assets/boss/greenhouse_heart.json",
+      "bytes": 12517,
+      "sha256": "06defac9a0779c4f66f94be2a1fb12597cbdae4d791161b1413aadb8377ad38a"
+    },
+    {
+      "path": "assets/boss/greenhouse_heart.png",
+      "bytes": 34024,
+      "sha256": "f67f480a87ef103fb3de45581ebab0610095923f58dd28853676f68fcbd649f7"
+    },
+    {
+      "path": "assets/cobble/atlas.json",
+      "bytes": 17056,
+      "sha256": "8b50d0bb018e0f335ac47b693f4db4e55631d6fc020bdf4bfd547d4ab1ee9384"
+    },
+    {
+      "path": "assets/cobble/atlas.png",
+      "bytes": 3448,
+      "sha256": "79d3727b65bc8157b936b56c3a7dda959d1174d7a44268e64beff4a87e1a6f90"
+    },
+    {
+      "path": "assets/content/bell_spitter/bell_spitter.json",
+      "bytes": 25161,
+      "sha256": "79b484a251db049738eb6233a38b738207504910ec23b2c85c87bc22b24e9908"
+    },
+    {
+      "path": "assets/content/bell_spitter/bell_spitter.png",
+      "bytes": 15366,
+      "sha256": "aa212bb3a44fb3da0b3a01b9445046cbe010f2af89ff297e3d389f05e916ab8d"
+    },
+    {
+      "path": "assets/content/content_fx/content_fx.json",
+      "bytes": 20498,
+      "sha256": "80a24efdd297d6292b30bbad70eb893b7d5e7f84c46d49b67342702cc838ce66"
+    },
+    {
+      "path": "assets/content/content_fx/content_fx.png",
+      "bytes": 4781,
+      "sha256": "9e111ddfac2b4545501840ad4d162f2aaf16523174be9b3668a1cd58a1efdc8b"
+    },
+    {
+      "path": "assets/content/content_icons/content_icons.json",
+      "bytes": 4522,
+      "sha256": "cb32d8fc5d0fc71f666b3d5d0a7e15c5d19395ed70dbc9f03bbec31bba85050b"
+    },
+    {
+      "path": "assets/content/content_icons/content_icons.png",
+      "bytes": 2159,
+      "sha256": "c2f97d01af379794fc1639edc7b60f9860407ba86fc6ac6a84bb1a54d05cfad2"
+    },
+    {
+      "path": "assets/content/lantern_thief/lantern_thief.json",
+      "bytes": 25234,
+      "sha256": "5ca743116213ef644104d6a1258cdc720b9d3a9e50cb013e20fdfc00ba40b877"
+    },
+    {
+      "path": "assets/content/lantern_thief/lantern_thief.png",
+      "bytes": 17750,
+      "sha256": "4d1fe37b031bc5b6454676937468fef48314dad8918822d169fd9c5a5b1e103b"
+    },
+    {
+      "path": "assets/content/moth_swarm/moth_swarm.json",
+      "bytes": 3596,
+      "sha256": "f7e953b54398daa472d6791f0862bc5ba0cd75c5a174c5fd3631c4e3f446d61e"
+    },
+    {
+      "path": "assets/content/moth_swarm/moth_swarm.png",
+      "bytes": 2140,
+      "sha256": "398d152559abcb40b99e9dfcb0eb48186fbfc7f3b39ba1423e7b84a51ba5c2c3"
+    },
+    {
+      "path": "assets/content/thorn_runner/thorn_runner.json",
+      "bytes": 25161,
+      "sha256": "63e8723f764fb34c3e85e8573005771496d97723194d1dea5ebdd8868329521a"
+    },
+    {
+      "path": "assets/content/thorn_runner/thorn_runner.png",
+      "bytes": 20470,
+      "sha256": "db947fdb914bafc33e39dd7a56aebb7e85163bb0b402a2f49b7c004dc4f0fb1a"
+    },
+    {
+      "path": "assets/content/wax_walker/wax_walker.json",
+      "bytes": 13907,
+      "sha256": "2eac8adfa2b365070eb418849596a5277b72259d816c1ed56e0b31a1af6186ce"
+    },
+    {
+      "path": "assets/content/wax_walker/wax_walker.png",
+      "bytes": 7999,
+      "sha256": "306bf17dbb83fec6ca842f441d5f2527333952fc38cd025774e9ffc6f72c838a"
+    },
+    {
+      "path": "assets/dirt/atlas.json",
+      "bytes": 1142,
+      "sha256": "b484202c208aa9b5dcb7a52e3381c55bd3037729ed6dfe4a79922ccdbf2f6368"
+    },
+    {
+      "path": "assets/dirt/atlas.png",
+      "bytes": 615,
+      "sha256": "2d290465623da23622904c5c58094d5d1e9c91a2023b24a12dd2d2401333aaa4"
+    },
+    {
+      "path": "assets/environment/environment.json",
+      "bytes": 5373,
+      "sha256": "eba7c171513b2710b014cd953a44ebf7cbe82cac0c0a0df97cb7208e8ebe615b"
+    },
+    {
+      "path": "assets/environment/environment.png",
+      "bytes": 3286,
+      "sha256": "ea8e60c9fc276a3e3da42c62c2e90664cc24046a61f267a7f1bd5e08486e3245"
+    },
+    {
+      "path": "assets/grass/atlas.json",
+      "bytes": 17006,
+      "sha256": "cefe791e0b830b6e4bfefb9a0e55c5d41974c8ecf921e987e6dd8dd7302e3b7b"
+    },
+    {
+      "path": "assets/grass/atlas.png",
+      "bytes": 4669,
+      "sha256": "eb223444c6ccf947117dc49741e34633a4518a3d1514ede39610b93ccfbb3673"
+    },
+    {
+      "path": "assets/hero_lantern_keeper/atlas.json",
+      "bytes": 48981,
+      "sha256": "f7469bfe9137053551f517b1cfeefb589336d25f9208ae731d0559c04e19ed82"
+    },
+    {
+      "path": "assets/hero_lantern_keeper/atlas.png",
+      "bytes": 36195,
+      "sha256": "3653ba5640c09152a552fd0196b514a834c8d0c5dae4d999ac0120a0c9d0b3e8"
+    },
+    {
+      "path": "assets/index-oc4ifDYs.css",
+      "bytes": 3969,
+      "sha256": "316329e42962e3e7c35013205dca18dc731691d75a79170b9b5ce4c1151f1e4c"
+    },
+    {
+      "path": "assets/index-xWy9IdCO.js",
+      "bytes": 1274789,
+      "sha256": "ff1c10805c6ec767266811e9af121f5e53c42dfc88105c01dccabbdd9ccdb586"
+    },
+    {
+      "path": "assets/manifest.json",
+      "bytes": 54323,
+      "sha256": "1021219de1658e3eeb5d34befd991ca0525e4172bc4bc646fe68f60c963ed94c"
+    },
+    {
+      "path": "assets/root_crawler/atlas.json",
+      "bytes": 13693,
+      "sha256": "606951421f3fe51814ee88a32aaee8dd31e2ba8818032f9f91b06987e1e0a3f6"
+    },
+    {
+      "path": "assets/root_crawler/atlas.png",
+      "bytes": 9996,
+      "sha256": "a22c0b39095bb7bb5df7f52fb3d4c17b3744cd1305a8d0c3f1110461604103bd"
+    },
+    {
+      "path": "index.html",
+      "bytes": 3297,
+      "sha256": "bd99264eb93febf1e73f270bab4c727f626ac0f7ff33a3cba0da1d4ae7b323a1"
+    }
+  ],
+  "archiveSha256": "db1fe5284fa46edf85e47f258d2e223192d8894b85734fdf84800708745d0202"
+}

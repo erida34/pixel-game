@@ -1,0 +1,63 @@
+{
+  "date": "2026-10-14",
+  "versions": {
+    "chrome": [
+      {
+        "brand": "Google Chrome",
+        "version": "155.0.8059.41"
+      },
+      {
+        "brand": "Chromium",
+        "version": "155.0.8059.41"
+      },
+      {
+        "brand": "Not(A:Brand",
+        "version": "24.0.0.0"
+      }
+    ],
+    "edge": [
+      {
+        "brand": "Microsoft Edge",
+        "version": "155.0.4283.45"
+      },
+      {
+        "brand": "Chromium",
+        "version": "155.0.8059.40"
+      },
+      {
+        "brand": "Not(A:Brand",
+        "version": "24.0.0.0"
+      }
+    ]
+  },
+  "performance": {
+    "chrome": {
+      "elapsedMs": 60001.50000000001,
+      "frameCount": 10848,
+      "averageFps": 180.79548011299715,
+      "p95Ms": 10,
+      "maxMs": 45,
+      "minAlive": 300,
+      "maxAlive": 300,
+      "simulationSeconds": 59.9166666666639,
+      "lights": [
+        24,
+        24
+      ]
+    },
+    "edge": {
+      "elapsedMs": 60001.7,
+      "frameCount": 11769,
+      "averageFps": 196.14444257412708,
+      "p95Ms": 5.100000000005821,
+      "maxMs": 25,
+      "minAlive": 300,
+      "maxAlive": 300,
+      "simulationSeconds": 59.966666666663905,
+      "lights": [
+        24,
+        24
+      ]
+    }
+  }
+}

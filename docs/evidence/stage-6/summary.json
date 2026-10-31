@@ -1,0 +1,161 @@
+{
+  "date": "2026-10-14",
+  "machine": {
+    "node": "v25.1.0",
+    "fixture": "300 live mixed enemies replenished after real deaths; all 4 weapons at level 5; hero HP and XP threshold 1000000; normal AI, world, collisions and damage",
+    "method": "headed installed browser, foreground page, requestAnimationFrame intervals only when Phaser frameSerial changes; raw intervals and 250 ms samples; WASD 5 seconds per direction",
+    "measureSeconds": 60,
+    "target": "Average >=60 FPS; p95 <=16.667 ms; all samples 300 live enemies; continuous simulation",
+    "seed": 20261014,
+    "canvas": {
+      "height": 720,
+      "width": 1280
+    },
+    "warmupSeconds": 10,
+    "os": {
+      "Caption": "Майкрософт Windows 11 Pro",
+      "Version": "10.0.26200"
+    },
+    "date": "2026-10-14",
+    "viewport": {
+      "height": 1120,
+      "width": 1360
+    },
+    "cpu": {
+      "Name": "Intel(R) Core(TM) i5-14400F",
+      "NumberOfCores": 10,
+      "NumberOfLogicalProcessors": 16
+    },
+    "volume": 0.45,
+    "gpu": {
+      "Name": "NVIDIA GeForce RTX 5060",
+      "DriverVersion": "32.0.16.1692"
+    }
+  },
+  "browsers": {
+    "chrome": {
+      "version": "155.0.8059.41",
+      "renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5060 (0x00002D05) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "canvas": {
+        "width": 1280,
+        "height": 720
+      },
+      "elapsedMs": 60001.49999999999,
+      "simulationSeconds": 59.933333333330566,
+      "frameCount": 11987,
+      "averageFps": 199.77833887486148,
+      "p95Ms": 5.100000000002183,
+      "maxMs": 15,
+      "alive": [
+        300,
+        300
+      ],
+      "killsDuringMeasurement": 6408,
+      "first": {
+        "at": 10440.9,
+        "time": 10.050000000000079,
+        "alive": 300,
+        "kills": 1787,
+        "phase": "running",
+        "objects": 1572,
+        "sprites": 452,
+        "projectiles": 30,
+        "effects": 66
+      },
+      "last": {
+        "at": 70377.4,
+        "time": 69.98333333333065,
+        "alive": 300,
+        "kills": 8195,
+        "phase": "running",
+        "objects": 1586,
+        "sprites": 452,
+        "projectiles": 8,
+        "effects": 12
+      },
+      "volume": 0.45,
+      "smokeChecks": [
+        "audio locked before trusted input",
+        "malformed storage recovery; mute/shake survive reload; native slider keyboard",
+        "keyboard pause/settings/resume; frozen simulation; audible signal and mute zero",
+        "actual tab focus pause; explicit resume; upgrade preserved across settings/Escape; Enter chooses once",
+        "both workshops load; real ranged combat",
+        "4 restarts with stable objects and keyboard listeners"
+      ],
+      "objectsAfterRestart": [
+        1037,
+        1037,
+        1037,
+        1037
+      ],
+      "keyboardListeners": [
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "edge": {
+      "version": "155.0.4283.45",
+      "renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5060 (0x00002D05) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "canvas": {
+        "width": 1280,
+        "height": 720
+      },
+      "elapsedMs": 60001.59999999999,
+      "simulationSeconds": 59.89999999999724,
+      "frameCount": 11991,
+      "averageFps": 199.84467080877846,
+      "p95Ms": 5.100000000002183,
+      "maxMs": 10.100000000000364,
+      "alive": [
+        300,
+        300
+      ],
+      "killsDuringMeasurement": 3011,
+      "first": {
+        "at": 10461.8,
+        "time": 10.016666666666744,
+        "alive": 300,
+        "kills": 1787,
+        "phase": "running",
+        "objects": 1572,
+        "sprites": 452,
+        "projectiles": 30,
+        "effects": 66
+      },
+      "last": {
+        "at": 70358.4,
+        "time": 69.91666666666399,
+        "alive": 300,
+        "kills": 4798,
+        "phase": "running",
+        "objects": 1582,
+        "sprites": 453,
+        "projectiles": 4,
+        "effects": 19
+      },
+      "volume": 0.45,
+      "smokeChecks": [
+        "audio locked before trusted input",
+        "malformed storage recovery; mute/shake survive reload; native slider keyboard",
+        "keyboard pause/settings/resume; frozen simulation; audible signal and mute zero",
+        "actual tab focus pause; explicit resume; upgrade preserved across settings/Escape; Enter chooses once",
+        "both workshops load; real ranged combat",
+        "4 restarts with stable objects and keyboard listeners"
+      ],
+      "objectsAfterRestart": [
+        1037,
+        1037,
+        1037,
+        1037
+      ],
+      "keyboardListeners": [
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  }
+}

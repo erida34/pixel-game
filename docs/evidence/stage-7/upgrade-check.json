@@ -1,0 +1,318 @@
+{
+  "before": {
+    "phase": "upgrade",
+    "time": "13.383333333333578",
+    "atmosphere": {
+      "enabled": true,
+      "supported": true,
+      "passes": 1,
+      "allocated": 1,
+      "motion": true,
+      "time": 13.383333333333578,
+      "capacity": 24,
+      "lights": [
+        {
+          "id": "hero",
+          "x": -12,
+          "y": -19,
+          "radius": 138,
+          "intensity": 1.1074352191770114,
+          "color": [
+            1,
+            0.6,
+            0.2
+          ],
+          "priority": 0
+        },
+        {
+          "id": "street/-208/144",
+          "x": -208,
+          "y": 111,
+          "radius": 112,
+          "intensity": 0.9741328316834821,
+          "color": [
+            1,
+            0.6,
+            0.2
+          ],
+          "priority": 1
+        },
+        {
+          "id": "street/-176/240",
+          "x": -176,
+          "y": 207,
+          "radius": 112,
+          "intensity": 0.9741328316834821,
+          "color": [
+            1,
+            0.6,
+            0.2
+          ],
+          "priority": 1
+        },
+        {
+          "id": "street/240/-240",
+          "x": 240,
+          "y": -273,
+          "radius": 112,
+          "intensity": 0.9741328316834821,
+          "color": [
+            1,
+            0.6,
+            0.2
+          ],
+          "priority": 1
+        },
+        {
+          "id": "street/-368/80",
+          "x": -368,
+          "y": 47,
+          "radius": 112,
+          "intensity": 0.9231369837436331,
+          "color": [
+            1,
+            0.6,
+            0.2
+          ],
+          "priority": 1
+        },
+        {
+          "id": "street/-368/272",
+          "x": -368,
+          "y": 239,
+          "radius": 112,
+          "intensity": 0.9776793052060264,
+          "color": [
+            1,
+            0.6,
+            0.2
+          ],
+          "priority": 1
+        },
+        {
+          "id": "pulse/13.216666666666903",
+          "x": 0,
+          "y": 0,
+          "radius": 82.6,
+          "intensity": 0.24444444444442925,
+          "color": [
+            1,
+            0.6,
+            0.2
+          ],
+          "priority": 2
+        }
+      ]
+    },
+    "offers": [
+      "firefly_jar",
+      "wax_seal",
+      "wick"
+    ]
+  },
+  "after": {
+    "phase": "upgrade",
+    "time": "13.383333333333578",
+    "atmosphere": {
+      "enabled": true,
+      "supported": true,
+      "passes": 1,
+      "allocated": 1,
+      "motion": true,
+      "time": 13.383333333333578,
+      "capacity": 24,
+      "lights": [
+        {
+          "id": "hero",
+          "x": -12,
+          "y": -19,
+          "radius": 138,
+          "intensity": 1.1074352191770114,
+          "color": [
+            1,
+            0.6,
+            0.2
+          ],
+          "priority": 0
+        },
+        {
+          "id": "street/-208/144",
+          "x": -208,
+          "y": 111,
+          "radius": 112,
+          "intensity": 0.9741328316834821,
+          "color": [
+            1,
+            0.6,
+            0.2
+          ],
+          "priority": 1
+        },
+        {
+          "id": "street/-176/240",
+          "x": -176,
+          "y": 207,
+          "radius": 112,
+          "intensity": 0.9741328316834821,
+          "color": [
+            1,
+            0.6,
+            0.2
+          ],
+          "priority": 1
+        },
+        {
+          "id": "street/240/-240",
+          "x": 240,
+          "y": -273,
+          "radius": 112,
+          "intensity": 0.9741328316834821,
+          "color": [
+            1,
+            0.6,
+            0.2
+          ],
+          "priority": 1
+        },
+        {
+          "id": "street/-368/80",
+          "x": -368,
+          "y": 47,
+          "radius": 112,
+          "intensity": 0.9231369837436331,
+          "color": [
+            1,
+            0.6,
+            0.2
+          ],
+          "priority": 1
+        },
+        {
+          "id": "street/-368/272",
+          "x": -368,
+          "y": 239,
+          "radius": 112,
+          "intensity": 0.9776793052060264,
+          "color": [
+            1,
+            0.6,
+            0.2
+          ],
+          "priority": 1
+        },
+        {
+          "id": "pulse/13.216666666666903",
+          "x": 0,
+          "y": 0,
+          "radius": 82.6,
+          "intensity": 0.24444444444442925,
+          "color": [
+            1,
+            0.6,
+            0.2
+          ],
+          "priority": 2
+        }
+      ]
+    },
+    "offers": [
+      "firefly_jar",
+      "wax_seal",
+      "wick"
+    ]
+  },
+  "resumed": {
+    "phase": "running",
+    "time": "13.800000000000265",
+    "atmosphere": {
+      "enabled": true,
+      "supported": true,
+      "passes": 1,
+      "allocated": 1,
+      "motion": true,
+      "time": 13.616666666666923,
+      "capacity": 24,
+      "lights": [
+        {
+          "id": "hero",
+          "x": -12,
+          "y": -19,
+          "radius": 138,
+          "intensity": 1.0986361248237866,
+          "color": [
+            1,
+            0.6,
+            0.2
+          ],
+          "priority": 0
+        },
+        {
+          "id": "street/-208/144",
+          "x": -208,
+          "y": 111,
+          "radius": 112,
+          "intensity": 0.9663928875764789,
+          "color": [
+            1,
+            0.6,
+            0.2
+          ],
+          "priority": 1
+        },
+        {
+          "id": "street/-176/240",
+          "x": -176,
+          "y": 207,
+          "radius": 112,
+          "intensity": 0.9663928875764789,
+          "color": [
+            1,
+            0.6,
+            0.2
+          ],
+          "priority": 1
+        },
+        {
+          "id": "street/240/-240",
+          "x": 240,
+          "y": -273,
+          "radius": 112,
+          "intensity": 0.9663928875764789,
+          "color": [
+            1,
+            0.6,
+            0.2
+          ],
+          "priority": 1
+        },
+        {
+          "id": "street/-368/80",
+          "x": -368,
+          "y": 47,
+          "radius": 112,
+          "intensity": 0.9178460900852436,
+          "color": [
+            1,
+            0.6,
+            0.2
+          ],
+          "priority": 1
+        },
+        {
+          "id": "street/-368/272",
+          "x": -368,
+          "y": 239,
+          "radius": 112,
+          "intensity": 0.9085232356683656,
+          "color": [
+            1,
+            0.6,
+            0.2
+          ],
+          "priority": 1
+        }
+      ]
+    },
+    "offers": []
+  }
+}
